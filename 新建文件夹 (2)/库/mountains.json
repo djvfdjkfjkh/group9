@@ -1,0 +1,6680 @@
+{
+  "_meta": {
+    "name": "中国可攀山峰库",
+    "version": "1.0.0",
+    "count": 110,
+    "description": "覆盖中国七大地理分区的可攀登山峰数据",
+    "regions": [
+      "东北",
+      "华东",
+      "华中",
+      "华北",
+      "华南",
+      "西北",
+      "西南"
+    ],
+    "difficulty_levels": {
+      "入门": 1,
+      "进阶": 2,
+      "高难度": 3
+    },
+    "elevation_extremes": {
+      "min": 182,
+      "max": 7556
+    }
+  },
+  "mountains": [
+    {
+      "name": "泰山",
+      "location": "山东 泰安",
+      "region": "华东",
+      "coords": "36.256N 117.101E",
+      "peak_elevation": 1545,
+      "base_elevation": 150,
+      "terrain_type": "石阶盘道为主，中陡",
+      "difficulty": "入门",
+      "round_trip_km": 14.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1400,
+      "spring_summer_base_temp": "12-25℃",
+      "spring_summer_peak_temp": "8-18℃",
+      "autumn_winter_base_temp": "-2-8℃",
+      "autumn_winter_peak_temp": "-8-2℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 600,
+      "avg_wind_mps": 3.0,
+      "risks": "雷雨、冬季冰雪、节假日拥堵",
+      "notes": "五岳之首，天门-玉皇顶经典石阶线",
+      "latitude": 36.256,
+      "longitude": 117.101,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -25.0,
+        "raw": "12-25℃"
+      },
+      "ss_peak": {
+        "min": 8.0,
+        "max": -18.0,
+        "raw": "8-18℃"
+      },
+      "aw_base": {
+        "min": -2.0,
+        "max": -8.0,
+        "raw": "-2-8℃"
+      },
+      "aw_peak": {
+        "min": -8.0,
+        "max": -2.0,
+        "raw": "-8-2℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "雷雨",
+        "冬季冰雪",
+        "节假日拥堵"
+      ],
+      "province": "山东",
+      "cities": [
+        "泰安"
+      ],
+      "id": "M001"
+    },
+    {
+      "name": "崂山（巨峰）",
+      "location": "山东 青岛",
+      "region": "华东",
+      "coords": "36.187N 120.621E",
+      "peak_elevation": 1133,
+      "base_elevation": 40,
+      "terrain_type": "石板台阶+部分野路，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 700,
+      "spring_summer_base_temp": "12-22℃",
+      "spring_summer_peak_temp": "10-18℃",
+      "autumn_winter_base_temp": "0-8℃",
+      "autumn_winter_peak_temp": "-4-4℃",
+      "temp_diff": "6-10℃",
+      "precip_probability_pct": 25,
+      "annual_precip_mm": 700,
+      "avg_wind_mps": 5.0,
+      "risks": "海雾、湿滑、临海风大",
+      "notes": "濒海花岗岩，崂山主峰",
+      "latitude": 36.187,
+      "longitude": 120.621,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -22.0,
+        "raw": "12-22℃"
+      },
+      "ss_peak": {
+        "min": 10.0,
+        "max": -18.0,
+        "raw": "10-18℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -8.0,
+        "raw": "0-8℃"
+      },
+      "aw_peak": {
+        "min": -4.0,
+        "max": -4.0,
+        "raw": "-4-4℃"
+      },
+      "temp_diff_range": {
+        "min": 6.0,
+        "max": -10.0,
+        "raw": "6-10℃"
+      },
+      "risk_list": [
+        "海雾",
+        "湿滑",
+        "临海风大"
+      ],
+      "province": "山东",
+      "cities": [
+        "青岛"
+      ],
+      "id": "M002"
+    },
+    {
+      "name": "黄山",
+      "location": "安徽 黄山",
+      "region": "华东",
+      "coords": "30.129N 118.163E",
+      "peak_elevation": 1865,
+      "base_elevation": 350,
+      "terrain_type": "石阶+栈道，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 16.0,
+      "round_trip_hours": 7.0,
+      "total_climb_m": 1200,
+      "spring_summer_base_temp": "10-24℃",
+      "spring_summer_peak_temp": "5-16℃",
+      "autumn_winter_base_temp": "-2-10℃",
+      "autumn_winter_peak_temp": "-6-2℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 2400,
+      "avg_wind_mps": 6.0,
+      "risks": "雷雨、云雾、湿滑、冬季冰冻",
+      "notes": "奇松怪石云海，前山后山两线",
+      "latitude": 30.129,
+      "longitude": 118.163,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 10.0,
+        "max": -24.0,
+        "raw": "10-24℃"
+      },
+      "ss_peak": {
+        "min": 5.0,
+        "max": -16.0,
+        "raw": "5-16℃"
+      },
+      "aw_base": {
+        "min": -2.0,
+        "max": -10.0,
+        "raw": "-2-10℃"
+      },
+      "aw_peak": {
+        "min": -6.0,
+        "max": -2.0,
+        "raw": "-6-2℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "雷雨",
+        "云雾",
+        "湿滑",
+        "冬季冰冻"
+      ],
+      "province": "安徽",
+      "cities": [
+        "黄山"
+      ],
+      "id": "M003"
+    },
+    {
+      "name": "九华山",
+      "location": "安徽 池州",
+      "region": "华东",
+      "coords": "30.500N 117.800E",
+      "peak_elevation": 1342,
+      "base_elevation": 200,
+      "terrain_type": "石阶，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "12-24℃",
+      "spring_summer_peak_temp": "9-18℃",
+      "autumn_winter_base_temp": "0-10℃",
+      "autumn_winter_peak_temp": "-4-3℃",
+      "temp_diff": "7-11℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 1800,
+      "avg_wind_mps": 4.0,
+      "risks": "湿滑、多雾",
+      "notes": "佛教名山，四大佛教圣地",
+      "latitude": 30.5,
+      "longitude": 117.8,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -24.0,
+        "raw": "12-24℃"
+      },
+      "ss_peak": {
+        "min": 9.0,
+        "max": -18.0,
+        "raw": "9-18℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -10.0,
+        "raw": "0-10℃"
+      },
+      "aw_peak": {
+        "min": -4.0,
+        "max": -3.0,
+        "raw": "-4-3℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -11.0,
+        "raw": "7-11℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "多雾"
+      ],
+      "province": "安徽",
+      "cities": [
+        "池州"
+      ],
+      "id": "M004"
+    },
+    {
+      "name": "天柱山",
+      "location": "安徽 安庆",
+      "region": "华东",
+      "coords": "30.716N 116.461E",
+      "peak_elevation": 1490,
+      "base_elevation": 300,
+      "terrain_type": "石阶+索道辅助，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1000,
+      "spring_summer_base_temp": "11-23℃",
+      "spring_summer_peak_temp": "7-16℃",
+      "autumn_winter_base_temp": "-2-9℃",
+      "autumn_winter_peak_temp": "-6-1℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 1500,
+      "avg_wind_mps": 5.0,
+      "risks": "石阶陡、湿滑",
+      "notes": "花岗岩峰林，南岳遗脉",
+      "latitude": 30.716,
+      "longitude": 116.461,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 11.0,
+        "max": -23.0,
+        "raw": "11-23℃"
+      },
+      "ss_peak": {
+        "min": 7.0,
+        "max": -16.0,
+        "raw": "7-16℃"
+      },
+      "aw_base": {
+        "min": -2.0,
+        "max": -9.0,
+        "raw": "-2-9℃"
+      },
+      "aw_peak": {
+        "min": -6.0,
+        "max": -1.0,
+        "raw": "-6-1℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "石阶陡",
+        "湿滑"
+      ],
+      "province": "安徽",
+      "cities": [
+        "安庆"
+      ],
+      "id": "M005"
+    },
+    {
+      "name": "齐云山",
+      "location": "安徽 黄山休宁",
+      "region": "华东",
+      "coords": "29.800N 118.050E",
+      "peak_elevation": 585,
+      "base_elevation": 150,
+      "terrain_type": "石阶，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 400,
+      "spring_summer_base_temp": "12-25℃",
+      "spring_summer_peak_temp": "10-20℃",
+      "autumn_winter_base_temp": "2-10℃",
+      "autumn_winter_peak_temp": "-2-5℃",
+      "temp_diff": "6-9℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 1800,
+      "avg_wind_mps": 3.0,
+      "risks": "湿滑",
+      "notes": "道教名山，月华街",
+      "latitude": 29.8,
+      "longitude": 118.05,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -25.0,
+        "raw": "12-25℃"
+      },
+      "ss_peak": {
+        "min": 10.0,
+        "max": -20.0,
+        "raw": "10-20℃"
+      },
+      "aw_base": {
+        "min": 2.0,
+        "max": -10.0,
+        "raw": "2-10℃"
+      },
+      "aw_peak": {
+        "min": -2.0,
+        "max": -5.0,
+        "raw": "-2-5℃"
+      },
+      "temp_diff_range": {
+        "min": 6.0,
+        "max": -9.0,
+        "raw": "6-9℃"
+      },
+      "risk_list": [
+        "湿滑"
+      ],
+      "province": "安徽",
+      "cities": [
+        "黄山休宁"
+      ],
+      "id": "M006"
+    },
+    {
+      "name": "紫金山",
+      "location": "江苏 南京",
+      "region": "华东",
+      "coords": "32.069N 118.847E",
+      "peak_elevation": 448,
+      "base_elevation": 15,
+      "terrain_type": "步道+台阶，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 400,
+      "spring_summer_base_temp": "12-26℃",
+      "spring_summer_peak_temp": "11-24℃",
+      "autumn_winter_base_temp": "2-10℃",
+      "autumn_winter_peak_temp": "0-8℃",
+      "temp_diff": "5-8℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 1000,
+      "avg_wind_mps": 3.0,
+      "risks": "晴热、节假日人多",
+      "notes": "明孝陵-头陀岭，南京城东",
+      "latitude": 32.069,
+      "longitude": 118.847,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -26.0,
+        "raw": "12-26℃"
+      },
+      "ss_peak": {
+        "min": 11.0,
+        "max": -24.0,
+        "raw": "11-24℃"
+      },
+      "aw_base": {
+        "min": 2.0,
+        "max": -10.0,
+        "raw": "2-10℃"
+      },
+      "aw_peak": {
+        "min": 0.0,
+        "max": -8.0,
+        "raw": "0-8℃"
+      },
+      "temp_diff_range": {
+        "min": 5.0,
+        "max": -8.0,
+        "raw": "5-8℃"
+      },
+      "risk_list": [
+        "晴热",
+        "节假日人多"
+      ],
+      "province": "江苏",
+      "cities": [
+        "南京"
+      ],
+      "id": "M007"
+    },
+    {
+      "name": "茅山",
+      "location": "江苏 镇江句容",
+      "region": "华东",
+      "coords": "31.766N 119.300E",
+      "peak_elevation": 372,
+      "base_elevation": 20,
+      "terrain_type": "台阶，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 5.0,
+      "round_trip_hours": 2.0,
+      "total_climb_m": 350,
+      "spring_summer_base_temp": "12-25℃",
+      "spring_summer_peak_temp": "11-24℃",
+      "autumn_winter_base_temp": "2-10℃",
+      "autumn_winter_peak_temp": "0-7℃",
+      "temp_diff": "5-8℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 1000,
+      "avg_wind_mps": 3.0,
+      "risks": "湿滑",
+      "notes": "道教名山，九霄万福宫",
+      "latitude": 31.766,
+      "longitude": 119.3,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -25.0,
+        "raw": "12-25℃"
+      },
+      "ss_peak": {
+        "min": 11.0,
+        "max": -24.0,
+        "raw": "11-24℃"
+      },
+      "aw_base": {
+        "min": 2.0,
+        "max": -10.0,
+        "raw": "2-10℃"
+      },
+      "aw_peak": {
+        "min": 0.0,
+        "max": -7.0,
+        "raw": "0-7℃"
+      },
+      "temp_diff_range": {
+        "min": 5.0,
+        "max": -8.0,
+        "raw": "5-8℃"
+      },
+      "risk_list": [
+        "湿滑"
+      ],
+      "province": "江苏",
+      "cities": [
+        "镇江句容"
+      ],
+      "id": "M008"
+    },
+    {
+      "name": "灵岩山",
+      "location": "江苏 苏州",
+      "region": "华东",
+      "coords": "31.270N 120.420E",
+      "peak_elevation": 182,
+      "base_elevation": 5,
+      "terrain_type": "步道+台阶，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 4.0,
+      "round_trip_hours": 2.0,
+      "total_climb_m": 180,
+      "spring_summer_base_temp": "12-26℃",
+      "spring_summer_peak_temp": "12-24℃",
+      "autumn_winter_base_temp": "3-11℃",
+      "autumn_winter_peak_temp": "1-9℃",
+      "temp_diff": "5-8℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 1100,
+      "avg_wind_mps": 3.0,
+      "risks": "晴热",
+      "notes": "姑苏名山，灵岩山寺",
+      "latitude": 31.27,
+      "longitude": 120.42,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -26.0,
+        "raw": "12-26℃"
+      },
+      "ss_peak": {
+        "min": 12.0,
+        "max": -24.0,
+        "raw": "12-24℃"
+      },
+      "aw_base": {
+        "min": 3.0,
+        "max": -11.0,
+        "raw": "3-11℃"
+      },
+      "aw_peak": {
+        "min": 1.0,
+        "max": -9.0,
+        "raw": "1-9℃"
+      },
+      "temp_diff_range": {
+        "min": 5.0,
+        "max": -8.0,
+        "raw": "5-8℃"
+      },
+      "risk_list": [
+        "晴热"
+      ],
+      "province": "江苏",
+      "cities": [
+        "苏州"
+      ],
+      "id": "M009"
+    },
+    {
+      "name": "雁荡山（百岗尖）",
+      "location": "浙江 温州乐清",
+      "region": "华东",
+      "coords": "28.400N 121.070E",
+      "peak_elevation": 1108,
+      "base_elevation": 50,
+      "terrain_type": "石阶+栈道，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "12-24℃",
+      "spring_summer_peak_temp": "9-17℃",
+      "autumn_winter_base_temp": "2-10℃",
+      "autumn_winter_peak_temp": "-3-4℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 1800,
+      "avg_wind_mps": 5.0,
+      "risks": "湿滑、临海风大",
+      "notes": "北雁荡，奇峰飞瀑",
+      "latitude": 28.4,
+      "longitude": 121.07,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 12.0,
+        "max": -24.0,
+        "raw": "12-24℃"
+      },
+      "ss_peak": {
+        "min": 9.0,
+        "max": -17.0,
+        "raw": "9-17℃"
+      },
+      "aw_base": {
+        "min": 2.0,
+        "max": -10.0,
+        "raw": "2-10℃"
+      },
+      "aw_peak": {
+        "min": -3.0,
+        "max": -4.0,
+        "raw": "-3-4℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "临海风大"
+      ],
+      "province": "浙江",
+      "cities": [
+        "温州乐清"
+      ],
+      "id": "M010"
+    },
+    {
+      "name": "天目山",
+      "location": "浙江 临安",
+      "region": "华东",
+      "coords": "30.380N 119.430E",
+      "peak_elevation": 1506,
+      "base_elevation": 300,
+      "terrain_type": "石阶+林道，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "6-14℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-5-0℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1900,
+      "avg_wind_mps": 5.0,
+      "risks": "多雾、湿滑",
+      "notes": "浙西大树王国，西天目",
+      "latitude": 30.38,
+      "longitude": 119.43,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 6.0,
+        "max": -14.0,
+        "raw": "6-14℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -5.0,
+        "max": -0.0,
+        "raw": "-5-0℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "多雾",
+        "湿滑"
+      ],
+      "province": "浙江",
+      "cities": [
+        "临安"
+      ],
+      "id": "M011"
+    },
+    {
+      "name": "莫干山",
+      "location": "浙江 湖州德清",
+      "region": "华东",
+      "coords": "30.580N 119.880E",
+      "peak_elevation": 758,
+      "base_elevation": 50,
+      "terrain_type": "盘山公路+步道，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "12-25℃",
+      "spring_summer_peak_temp": "10-20℃",
+      "autumn_winter_base_temp": "2-9℃",
+      "autumn_winter_peak_temp": "-1-6℃",
+      "temp_diff": "6-9℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 1400,
+      "avg_wind_mps": 4.0,
+      "risks": "雨季湿滑",
+      "notes": "避暑胜地，剑池-芦花荡",
+      "latitude": 30.58,
+      "longitude": 119.88,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -25.0,
+        "raw": "12-25℃"
+      },
+      "ss_peak": {
+        "min": 10.0,
+        "max": -20.0,
+        "raw": "10-20℃"
+      },
+      "aw_base": {
+        "min": 2.0,
+        "max": -9.0,
+        "raw": "2-9℃"
+      },
+      "aw_peak": {
+        "min": -1.0,
+        "max": -6.0,
+        "raw": "-1-6℃"
+      },
+      "temp_diff_range": {
+        "min": 6.0,
+        "max": -9.0,
+        "raw": "6-9℃"
+      },
+      "risk_list": [
+        "雨季湿滑"
+      ],
+      "province": "浙江",
+      "cities": [
+        "湖州德清"
+      ],
+      "id": "M012"
+    },
+    {
+      "name": "普陀山",
+      "location": "浙江 舟山",
+      "region": "华东",
+      "coords": "29.980N 122.390E",
+      "peak_elevation": 291,
+      "base_elevation": 5,
+      "terrain_type": "沿海步道，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 250,
+      "spring_summer_base_temp": "12-25℃",
+      "spring_summer_peak_temp": "11-22℃",
+      "autumn_winter_base_temp": "4-12℃",
+      "autumn_winter_peak_temp": "1-9℃",
+      "temp_diff": "4-7℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 1200,
+      "avg_wind_mps": 7.0,
+      "risks": "海雾、台风季、风大",
+      "notes": "海天佛国，南海观音",
+      "latitude": 29.98,
+      "longitude": 122.39,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -25.0,
+        "raw": "12-25℃"
+      },
+      "ss_peak": {
+        "min": 11.0,
+        "max": -22.0,
+        "raw": "11-22℃"
+      },
+      "aw_base": {
+        "min": 4.0,
+        "max": -12.0,
+        "raw": "4-12℃"
+      },
+      "aw_peak": {
+        "min": 1.0,
+        "max": -9.0,
+        "raw": "1-9℃"
+      },
+      "temp_diff_range": {
+        "min": 4.0,
+        "max": -7.0,
+        "raw": "4-7℃"
+      },
+      "risk_list": [
+        "海雾",
+        "台风季",
+        "风大"
+      ],
+      "province": "浙江",
+      "cities": [
+        "舟山"
+      ],
+      "id": "M013"
+    },
+    {
+      "name": "天姥山",
+      "location": "浙江 绍兴新昌",
+      "region": "华东",
+      "coords": "29.380N 120.950E",
+      "peak_elevation": 818,
+      "base_elevation": 80,
+      "terrain_type": "石阶+野路，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 700,
+      "spring_summer_base_temp": "12-24℃",
+      "spring_summer_peak_temp": "9-18℃",
+      "autumn_winter_base_temp": "2-10℃",
+      "autumn_winter_peak_temp": "-3-4℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 1500,
+      "avg_wind_mps": 4.0,
+      "risks": "湿滑、多雾",
+      "notes": "李白梦游天姥吟留别",
+      "latitude": 29.38,
+      "longitude": 120.95,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -24.0,
+        "raw": "12-24℃"
+      },
+      "ss_peak": {
+        "min": 9.0,
+        "max": -18.0,
+        "raw": "9-18℃"
+      },
+      "aw_base": {
+        "min": 2.0,
+        "max": -10.0,
+        "raw": "2-10℃"
+      },
+      "aw_peak": {
+        "min": -3.0,
+        "max": -4.0,
+        "raw": "-3-4℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "多雾"
+      ],
+      "province": "浙江",
+      "cities": [
+        "绍兴新昌"
+      ],
+      "id": "M014"
+    },
+    {
+      "name": "武夷山（黄岗山）",
+      "location": "福建 南平武夷山",
+      "region": "华东",
+      "coords": "27.860N 117.700E",
+      "peak_elevation": 2161,
+      "base_elevation": 200,
+      "terrain_type": "石阶+野路，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "10-23℃",
+      "spring_summer_peak_temp": "4-14℃",
+      "autumn_winter_base_temp": "0-8℃",
+      "autumn_winter_peak_temp": "-8-0℃",
+      "temp_diff": "10-14℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 2300,
+      "avg_wind_mps": 5.0,
+      "risks": "高海拔风大、云雾、低温",
+      "notes": "华东屋脊，跨闽赣两省",
+      "latitude": 27.86,
+      "longitude": 117.7,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 10.0,
+        "max": -23.0,
+        "raw": "10-23℃"
+      },
+      "ss_peak": {
+        "min": 4.0,
+        "max": -14.0,
+        "raw": "4-14℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -8.0,
+        "raw": "0-8℃"
+      },
+      "aw_peak": {
+        "min": -8.0,
+        "max": -0.0,
+        "raw": "-8-0℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -14.0,
+        "raw": "10-14℃"
+      },
+      "risk_list": [
+        "高海拔风大",
+        "云雾",
+        "低温"
+      ],
+      "province": "福建",
+      "cities": [
+        "南平武夷山"
+      ],
+      "id": "M015"
+    },
+    {
+      "name": "太姥山",
+      "location": "福建 宁德福鼎",
+      "region": "华东",
+      "coords": "27.050N 120.160E",
+      "peak_elevation": 917,
+      "base_elevation": 50,
+      "terrain_type": "石阶+岩洞栈道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "12-24℃",
+      "spring_summer_peak_temp": "9-18℃",
+      "autumn_winter_base_temp": "3-11℃",
+      "autumn_winter_peak_temp": "-2-5℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 1600,
+      "avg_wind_mps": 5.0,
+      "risks": "湿滑、海雾",
+      "notes": "海上仙都，花岗岩峰丛",
+      "latitude": 27.05,
+      "longitude": 120.16,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -24.0,
+        "raw": "12-24℃"
+      },
+      "ss_peak": {
+        "min": 9.0,
+        "max": -18.0,
+        "raw": "9-18℃"
+      },
+      "aw_base": {
+        "min": 3.0,
+        "max": -11.0,
+        "raw": "3-11℃"
+      },
+      "aw_peak": {
+        "min": -2.0,
+        "max": -5.0,
+        "raw": "-2-5℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "海雾"
+      ],
+      "province": "福建",
+      "cities": [
+        "宁德福鼎"
+      ],
+      "id": "M016"
+    },
+    {
+      "name": "鼓山",
+      "location": "福建 福州",
+      "region": "华东",
+      "coords": "26.050N 119.320E",
+      "peak_elevation": 919,
+      "base_elevation": 20,
+      "terrain_type": "石阶+步道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "12-26℃",
+      "spring_summer_peak_temp": "10-20℃",
+      "autumn_winter_base_temp": "3-11℃",
+      "autumn_winter_peak_temp": "0-8℃",
+      "temp_diff": "6-9℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1500,
+      "avg_wind_mps": 4.0,
+      "risks": "晴热、夏季闷热",
+      "notes": "福州近郊，涌泉寺",
+      "latitude": 26.05,
+      "longitude": 119.32,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -26.0,
+        "raw": "12-26℃"
+      },
+      "ss_peak": {
+        "min": 10.0,
+        "max": -20.0,
+        "raw": "10-20℃"
+      },
+      "aw_base": {
+        "min": 3.0,
+        "max": -11.0,
+        "raw": "3-11℃"
+      },
+      "aw_peak": {
+        "min": 0.0,
+        "max": -8.0,
+        "raw": "0-8℃"
+      },
+      "temp_diff_range": {
+        "min": 6.0,
+        "max": -9.0,
+        "raw": "6-9℃"
+      },
+      "risk_list": [
+        "晴热",
+        "夏季闷热"
+      ],
+      "province": "福建",
+      "cities": [
+        "福州"
+      ],
+      "id": "M017"
+    },
+    {
+      "name": "庐山",
+      "location": "江西 九江",
+      "region": "华东",
+      "coords": "29.570N 115.990E",
+      "peak_elevation": 1474,
+      "base_elevation": 100,
+      "terrain_type": "盘山公路+石阶，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 14.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1200,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "6-15℃",
+      "autumn_winter_base_temp": "-2-8℃",
+      "autumn_winter_peak_temp": "-7-1℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 2300,
+      "avg_wind_mps": 5.0,
+      "risks": "多雾、冬雪、湿滑",
+      "notes": "三叠泉-含鄱口，避暑胜地",
+      "latitude": 29.57,
+      "longitude": 115.99,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 6.0,
+        "max": -15.0,
+        "raw": "6-15℃"
+      },
+      "aw_base": {
+        "min": -2.0,
+        "max": -8.0,
+        "raw": "-2-8℃"
+      },
+      "aw_peak": {
+        "min": -7.0,
+        "max": -1.0,
+        "raw": "-7-1℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "多雾",
+        "冬雪",
+        "湿滑"
+      ],
+      "province": "江西",
+      "cities": [
+        "九江"
+      ],
+      "id": "M018"
+    },
+    {
+      "name": "三清山",
+      "location": "江西 上饶",
+      "region": "华东",
+      "coords": "28.930N 118.060E",
+      "peak_elevation": 1820,
+      "base_elevation": 200,
+      "terrain_type": "栈道+石阶，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 1000,
+      "spring_summer_base_temp": "10-23℃",
+      "spring_summer_peak_temp": "5-14℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-6-0℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 2200,
+      "avg_wind_mps": 6.0,
+      "risks": "高海拔湿滑、云雾、风大",
+      "notes": "道教名山，奇峰栈道",
+      "latitude": 28.93,
+      "longitude": 118.06,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 10.0,
+        "max": -23.0,
+        "raw": "10-23℃"
+      },
+      "ss_peak": {
+        "min": 5.0,
+        "max": -14.0,
+        "raw": "5-14℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -6.0,
+        "max": -0.0,
+        "raw": "-6-0℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "高海拔湿滑",
+        "云雾",
+        "风大"
+      ],
+      "province": "江西",
+      "cities": [
+        "上饶"
+      ],
+      "id": "M019"
+    },
+    {
+      "name": "武功山（金顶）",
+      "location": "江西 萍乡/吉安",
+      "region": "华东",
+      "coords": "27.480N 114.140E",
+      "peak_elevation": 1918,
+      "base_elevation": 400,
+      "terrain_type": "草甸+石阶，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 14.0,
+      "round_trip_hours": 7.0,
+      "total_climb_m": 1300,
+      "spring_summer_base_temp": "9-22℃",
+      "spring_summer_peak_temp": "3-13℃",
+      "autumn_winter_base_temp": "-1-8℃",
+      "autumn_winter_peak_temp": "-9--1℃",
+      "temp_diff": "10-14℃",
+      "precip_probability_pct": 45,
+      "annual_precip_mm": 2000,
+      "avg_wind_mps": 6.0,
+      "risks": "高山草甸风大、雷雨、失温风险",
+      "notes": "高山草甸星空，云海日出",
+      "latitude": 27.48,
+      "longitude": 114.14,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 9.0,
+        "max": -22.0,
+        "raw": "9-22℃"
+      },
+      "ss_peak": {
+        "min": 3.0,
+        "max": -13.0,
+        "raw": "3-13℃"
+      },
+      "aw_base": {
+        "min": -1.0,
+        "max": -8.0,
+        "raw": "-1-8℃"
+      },
+      "aw_peak": {
+        "min": -9.0,
+        "max": -1.0,
+        "raw": "-9--1℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -14.0,
+        "raw": "10-14℃"
+      },
+      "risk_list": [
+        "高山草甸风大",
+        "雷雨",
+        "失温风险"
+      ],
+      "province": "江西",
+      "cities": [
+        "萍乡",
+        "吉安"
+      ],
+      "id": "M020"
+    },
+    {
+      "name": "龙虎山",
+      "location": "江西 鹰潭",
+      "region": "华东",
+      "coords": "28.120N 116.970E",
+      "peak_elevation": 280,
+      "base_elevation": 30,
+      "terrain_type": "步道+丹霞栈道，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 2.0,
+      "total_climb_m": 250,
+      "spring_summer_base_temp": "12-25℃",
+      "spring_summer_peak_temp": "11-23℃",
+      "autumn_winter_base_temp": "3-11℃",
+      "autumn_winter_peak_temp": "1-9℃",
+      "temp_diff": "5-8℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 1800,
+      "avg_wind_mps": 3.0,
+      "risks": "湿滑、汛期",
+      "notes": "道教祖庭，丹霞地貌",
+      "latitude": 28.12,
+      "longitude": 116.97,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -25.0,
+        "raw": "12-25℃"
+      },
+      "ss_peak": {
+        "min": 11.0,
+        "max": -23.0,
+        "raw": "11-23℃"
+      },
+      "aw_base": {
+        "min": 3.0,
+        "max": -11.0,
+        "raw": "3-11℃"
+      },
+      "aw_peak": {
+        "min": 1.0,
+        "max": -9.0,
+        "raw": "1-9℃"
+      },
+      "temp_diff_range": {
+        "min": 5.0,
+        "max": -8.0,
+        "raw": "5-8℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "汛期"
+      ],
+      "province": "江西",
+      "cities": [
+        "鹰潭"
+      ],
+      "id": "M021"
+    },
+    {
+      "name": "明月山",
+      "location": "江西 宜春",
+      "region": "华东",
+      "coords": "27.750N 114.100E",
+      "peak_elevation": 1736,
+      "base_elevation": 300,
+      "terrain_type": "石阶+索道，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1000,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "5-14℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-6-0℃",
+      "temp_diff": "9-12℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1900,
+      "avg_wind_mps": 5.0,
+      "risks": "湿滑、云雾",
+      "notes": "宜春温汤镇旁",
+      "latitude": 27.75,
+      "longitude": 114.1,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 5.0,
+        "max": -14.0,
+        "raw": "5-14℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -6.0,
+        "max": -0.0,
+        "raw": "-6-0℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -12.0,
+        "raw": "9-12℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "云雾"
+      ],
+      "province": "江西",
+      "cities": [
+        "宜春"
+      ],
+      "id": "M022"
+    },
+    {
+      "name": "灵山（江西）",
+      "location": "江西 上饶",
+      "region": "华东",
+      "coords": "28.500N 118.060E",
+      "peak_elevation": 1496,
+      "base_elevation": 200,
+      "terrain_type": "石阶+野路，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "11-23℃",
+      "spring_summer_peak_temp": "6-15℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-5-1℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1900,
+      "avg_wind_mps": 5.0,
+      "risks": "湿滑、部分路段险",
+      "notes": "上饶城北，花岗岩地貌",
+      "latitude": 28.5,
+      "longitude": 118.06,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 11.0,
+        "max": -23.0,
+        "raw": "11-23℃"
+      },
+      "ss_peak": {
+        "min": 6.0,
+        "max": -15.0,
+        "raw": "6-15℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -5.0,
+        "max": -1.0,
+        "raw": "-5-1℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "部分路段险"
+      ],
+      "province": "江西",
+      "cities": [
+        "上饶"
+      ],
+      "id": "M023"
+    },
+    {
+      "name": "嵩山（峻极峰）",
+      "location": "河南 登封",
+      "region": "华中",
+      "coords": "34.480N 113.060E",
+      "peak_elevation": 1492,
+      "base_elevation": 200,
+      "terrain_type": "石阶，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1200,
+      "spring_summer_base_temp": "11-23℃",
+      "spring_summer_peak_temp": "7-16℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-5-1℃",
+      "temp_diff": "8-11℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 650,
+      "avg_wind_mps": 4.0,
+      "risks": "石阶陡、冬雪",
+      "notes": "五岳之中岳，少林寺-峻极峰",
+      "latitude": 34.48,
+      "longitude": 113.06,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 11.0,
+        "max": -23.0,
+        "raw": "11-23℃"
+      },
+      "ss_peak": {
+        "min": 7.0,
+        "max": -16.0,
+        "raw": "7-16℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -5.0,
+        "max": -1.0,
+        "raw": "-5-1℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -11.0,
+        "raw": "8-11℃"
+      },
+      "risk_list": [
+        "石阶陡",
+        "冬雪"
+      ],
+      "province": "河南",
+      "cities": [
+        "登封"
+      ],
+      "id": "M024"
+    },
+    {
+      "name": "云台山（茱萸峰）",
+      "location": "河南 焦作",
+      "region": "华中",
+      "coords": "35.300N 113.330E",
+      "peak_elevation": 1308,
+      "base_elevation": 200,
+      "terrain_type": "石阶+栈道，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "11-23℃",
+      "spring_summer_peak_temp": "8-16℃",
+      "autumn_winter_base_temp": "0-8℃",
+      "autumn_winter_peak_temp": "-4-1℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 700,
+      "avg_wind_mps": 4.0,
+      "risks": "湿滑、峡谷风",
+      "notes": "世界地质公园，红石峡",
+      "latitude": 35.3,
+      "longitude": 113.33,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 11.0,
+        "max": -23.0,
+        "raw": "11-23℃"
+      },
+      "ss_peak": {
+        "min": 8.0,
+        "max": -16.0,
+        "raw": "8-16℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -8.0,
+        "raw": "0-8℃"
+      },
+      "aw_peak": {
+        "min": -4.0,
+        "max": -1.0,
+        "raw": "-4-1℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "峡谷风"
+      ],
+      "province": "河南",
+      "cities": [
+        "焦作"
+      ],
+      "id": "M025"
+    },
+    {
+      "name": "老君山",
+      "location": "河南 洛阳栾川",
+      "region": "华中",
+      "coords": "33.760N 111.180E",
+      "peak_elevation": 2217,
+      "base_elevation": 700,
+      "terrain_type": "石阶+栈道，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 1300,
+      "spring_summer_base_temp": "8-20℃",
+      "spring_summer_peak_temp": "2-12℃",
+      "autumn_winter_base_temp": "-4-6℃",
+      "autumn_winter_peak_temp": "-10--2℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 800,
+      "avg_wind_mps": 5.0,
+      "risks": "高海拔低温、风大、雪天结冰",
+      "notes": "远山如画，道教圣地",
+      "latitude": 33.76,
+      "longitude": 111.18,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "ss_peak": {
+        "min": 2.0,
+        "max": -12.0,
+        "raw": "2-12℃"
+      },
+      "aw_base": {
+        "min": -4.0,
+        "max": -6.0,
+        "raw": "-4-6℃"
+      },
+      "aw_peak": {
+        "min": -10.0,
+        "max": -2.0,
+        "raw": "-10--2℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "高海拔低温",
+        "风大",
+        "雪天结冰"
+      ],
+      "province": "河南",
+      "cities": [
+        "洛阳栾川"
+      ],
+      "id": "M026"
+    },
+    {
+      "name": "白云山（洛阳）",
+      "location": "河南 洛阳嵩县",
+      "region": "华中",
+      "coords": "33.800N 111.700E",
+      "peak_elevation": 2200,
+      "base_elevation": 800,
+      "terrain_type": "石阶+林道，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 1200,
+      "spring_summer_base_temp": "8-20℃",
+      "spring_summer_peak_temp": "2-12℃",
+      "autumn_winter_base_temp": "-3-7℃",
+      "autumn_winter_peak_temp": "-10--1℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 750,
+      "avg_wind_mps": 5.0,
+      "risks": "高海拔低温、云雾",
+      "notes": "世界地质公园，玉皇顶",
+      "latitude": 33.8,
+      "longitude": 111.7,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "ss_peak": {
+        "min": 2.0,
+        "max": -12.0,
+        "raw": "2-12℃"
+      },
+      "aw_base": {
+        "min": -3.0,
+        "max": -7.0,
+        "raw": "-3-7℃"
+      },
+      "aw_peak": {
+        "min": -10.0,
+        "max": -1.0,
+        "raw": "-10--1℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "高海拔低温",
+        "云雾"
+      ],
+      "province": "河南",
+      "cities": [
+        "洛阳嵩县"
+      ],
+      "id": "M027"
+    },
+    {
+      "name": "神农架（神农顶）",
+      "location": "湖北 神农架",
+      "region": "华中",
+      "coords": "31.520N 110.400E",
+      "peak_elevation": 3105,
+      "base_elevation": 1200,
+      "terrain_type": "盘山公路+石阶，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1500,
+      "spring_summer_base_temp": "6-18℃",
+      "spring_summer_peak_temp": "-2-10℃",
+      "autumn_winter_base_temp": "-6-6℃",
+      "autumn_winter_peak_temp": "-14--4℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 50,
+      "annual_precip_mm": 2500,
+      "avg_wind_mps": 6.0,
+      "risks": "高海拔低温、云雾、失温风险",
+      "notes": "华中屋脊，原始森林",
+      "latitude": 31.52,
+      "longitude": 110.4,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 6.0,
+        "max": -18.0,
+        "raw": "6-18℃"
+      },
+      "ss_peak": {
+        "min": -2.0,
+        "max": -10.0,
+        "raw": "-2-10℃"
+      },
+      "aw_base": {
+        "min": -6.0,
+        "max": -6.0,
+        "raw": "-6-6℃"
+      },
+      "aw_peak": {
+        "min": -14.0,
+        "max": -4.0,
+        "raw": "-14--4℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "高海拔低温",
+        "云雾",
+        "失温风险"
+      ],
+      "province": "湖北",
+      "cities": [
+        "神农架"
+      ],
+      "id": "M028"
+    },
+    {
+      "name": "武当山",
+      "location": "湖北 十堰",
+      "region": "华中",
+      "coords": "32.450N 111.000E",
+      "peak_elevation": 1612,
+      "base_elevation": 500,
+      "terrain_type": "石阶+索道，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 14.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 1200,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "5-15℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-6-0℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 900,
+      "avg_wind_mps": 5.0,
+      "risks": "石阶陡、冬雪",
+      "notes": "道教圣地，金顶",
+      "latitude": 32.45,
+      "longitude": 111.0,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 5.0,
+        "max": -15.0,
+        "raw": "5-15℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -6.0,
+        "max": -0.0,
+        "raw": "-6-0℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "石阶陡",
+        "冬雪"
+      ],
+      "province": "湖北",
+      "cities": [
+        "十堰"
+      ],
+      "id": "M029"
+    },
+    {
+      "name": "大别山（天堂寨）",
+      "location": "湖北 黄冈罗田",
+      "region": "华中",
+      "coords": "31.160N 115.700E",
+      "peak_elevation": 1729,
+      "base_elevation": 400,
+      "terrain_type": "石阶+林道，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1000,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "6-15℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-5-0℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1400,
+      "avg_wind_mps": 4.0,
+      "risks": "湿滑、多雾",
+      "notes": "鄂皖界山，红色旅游",
+      "latitude": 31.16,
+      "longitude": 115.7,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 6.0,
+        "max": -15.0,
+        "raw": "6-15℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -5.0,
+        "max": -0.0,
+        "raw": "-5-0℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "多雾"
+      ],
+      "province": "湖北",
+      "cities": [
+        "黄冈罗田"
+      ],
+      "id": "M030"
+    },
+    {
+      "name": "九宫山",
+      "location": "湖北 咸宁通山",
+      "region": "华中",
+      "coords": "29.400N 114.800E",
+      "peak_elevation": 1657,
+      "base_elevation": 300,
+      "terrain_type": "盘山公路+步道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "6-14℃",
+      "autumn_winter_base_temp": "0-8℃",
+      "autumn_winter_peak_temp": "-5-0℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1700,
+      "avg_wind_mps": 4.0,
+      "risks": "云雾、湿滑",
+      "notes": "鄂南避暑，铜鼓包",
+      "latitude": 29.4,
+      "longitude": 114.8,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 6.0,
+        "max": -14.0,
+        "raw": "6-14℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -8.0,
+        "raw": "0-8℃"
+      },
+      "aw_peak": {
+        "min": -5.0,
+        "max": -0.0,
+        "raw": "-5-0℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "云雾",
+        "湿滑"
+      ],
+      "province": "湖北",
+      "cities": [
+        "咸宁通山"
+      ],
+      "id": "M031"
+    },
+    {
+      "name": "衡山（祝融峰）",
+      "location": "湖南 衡阳",
+      "region": "华中",
+      "coords": "27.250N 112.700E",
+      "peak_elevation": 1300,
+      "base_elevation": 100,
+      "terrain_type": "石阶+公路，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 14.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 1100,
+      "spring_summer_base_temp": "11-24℃",
+      "spring_summer_peak_temp": "7-16℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-5-0℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1500,
+      "avg_wind_mps": 5.0,
+      "risks": "雨雾、湿滑、冬雪",
+      "notes": "五岳之南岳，祝融峰日出",
+      "latitude": 27.25,
+      "longitude": 112.7,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 11.0,
+        "max": -24.0,
+        "raw": "11-24℃"
+      },
+      "ss_peak": {
+        "min": 7.0,
+        "max": -16.0,
+        "raw": "7-16℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -5.0,
+        "max": -0.0,
+        "raw": "-5-0℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "雨雾",
+        "湿滑",
+        "冬雪"
+      ],
+      "province": "湖南",
+      "cities": [
+        "衡阳"
+      ],
+      "id": "M032"
+    },
+    {
+      "name": "天门山",
+      "location": "湖南 张家界",
+      "region": "华中",
+      "coords": "29.080N 110.480E",
+      "peak_elevation": 1519,
+      "base_elevation": 200,
+      "terrain_type": "栈道+扶梯+石阶，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1000,
+      "spring_summer_base_temp": "11-23℃",
+      "spring_summer_peak_temp": "6-15℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-5-1℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 45,
+      "annual_precip_mm": 1700,
+      "avg_wind_mps": 6.0,
+      "risks": "高崖栈道风大、云雾",
+      "notes": "天门洞，玻璃栈道",
+      "latitude": 29.08,
+      "longitude": 110.48,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 11.0,
+        "max": -23.0,
+        "raw": "11-23℃"
+      },
+      "ss_peak": {
+        "min": 6.0,
+        "max": -15.0,
+        "raw": "6-15℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -5.0,
+        "max": -1.0,
+        "raw": "-5-1℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "高崖栈道风大",
+        "云雾"
+      ],
+      "province": "湖南",
+      "cities": [
+        "张家界"
+      ],
+      "id": "M033"
+    },
+    {
+      "name": "崀山",
+      "location": "湖南 邵阳新宁",
+      "region": "华中",
+      "coords": "26.300N 110.780E",
+      "peak_elevation": 818,
+      "base_elevation": 150,
+      "terrain_type": "石阶+丹霞栈道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "12-25℃",
+      "spring_summer_peak_temp": "10-19℃",
+      "autumn_winter_base_temp": "2-10℃",
+      "autumn_winter_peak_temp": "-2-5℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1400,
+      "avg_wind_mps": 4.0,
+      "risks": "湿滑、汛期",
+      "notes": "丹霞地貌，八角寨",
+      "latitude": 26.3,
+      "longitude": 110.78,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -25.0,
+        "raw": "12-25℃"
+      },
+      "ss_peak": {
+        "min": 10.0,
+        "max": -19.0,
+        "raw": "10-19℃"
+      },
+      "aw_base": {
+        "min": 2.0,
+        "max": -10.0,
+        "raw": "2-10℃"
+      },
+      "aw_peak": {
+        "min": -2.0,
+        "max": -5.0,
+        "raw": "-2-5℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "汛期"
+      ],
+      "province": "湖南",
+      "cities": [
+        "邵阳新宁"
+      ],
+      "id": "M034"
+    },
+    {
+      "name": "韶山（韶峰）",
+      "location": "湖南 湘潭",
+      "region": "华中",
+      "coords": "27.920N 112.500E",
+      "peak_elevation": 519,
+      "base_elevation": 50,
+      "terrain_type": "步道+台阶，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 5.0,
+      "round_trip_hours": 2.0,
+      "total_climb_m": 300,
+      "spring_summer_base_temp": "12-25℃",
+      "spring_summer_peak_temp": "11-22℃",
+      "autumn_winter_base_temp": "3-11℃",
+      "autumn_winter_peak_temp": "0-8℃",
+      "temp_diff": "5-8℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 1400,
+      "avg_wind_mps": 3.0,
+      "risks": "晴热",
+      "notes": "伟人故里，韶峰",
+      "latitude": 27.92,
+      "longitude": 112.5,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -25.0,
+        "raw": "12-25℃"
+      },
+      "ss_peak": {
+        "min": 11.0,
+        "max": -22.0,
+        "raw": "11-22℃"
+      },
+      "aw_base": {
+        "min": 3.0,
+        "max": -11.0,
+        "raw": "3-11℃"
+      },
+      "aw_peak": {
+        "min": 0.0,
+        "max": -8.0,
+        "raw": "0-8℃"
+      },
+      "temp_diff_range": {
+        "min": 5.0,
+        "max": -8.0,
+        "raw": "5-8℃"
+      },
+      "risk_list": [
+        "晴热"
+      ],
+      "province": "湖南",
+      "cities": [
+        "湘潭"
+      ],
+      "id": "M035"
+    },
+    {
+      "name": "白云山（广州）",
+      "location": "广东 广州",
+      "region": "华南",
+      "coords": "23.180N 113.290E",
+      "peak_elevation": 382,
+      "base_elevation": 10,
+      "terrain_type": "步道+公路，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 350,
+      "spring_summer_base_temp": "15-28℃",
+      "spring_summer_peak_temp": "14-27℃",
+      "autumn_winter_base_temp": "8-18℃",
+      "autumn_winter_peak_temp": "6-16℃",
+      "temp_diff": "5-8℃",
+      "precip_probability_pct": 45,
+      "annual_precip_mm": 1800,
+      "avg_wind_mps": 3.0,
+      "risks": "晴热、台风季",
+      "notes": "广州城市绿肺，摩星岭",
+      "latitude": 23.18,
+      "longitude": 113.29,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 15.0,
+        "max": -28.0,
+        "raw": "15-28℃"
+      },
+      "ss_peak": {
+        "min": 14.0,
+        "max": -27.0,
+        "raw": "14-27℃"
+      },
+      "aw_base": {
+        "min": 8.0,
+        "max": -18.0,
+        "raw": "8-18℃"
+      },
+      "aw_peak": {
+        "min": 6.0,
+        "max": -16.0,
+        "raw": "6-16℃"
+      },
+      "temp_diff_range": {
+        "min": 5.0,
+        "max": -8.0,
+        "raw": "5-8℃"
+      },
+      "risk_list": [
+        "晴热",
+        "台风季"
+      ],
+      "province": "广东",
+      "cities": [
+        "广州"
+      ],
+      "id": "M036"
+    },
+    {
+      "name": "丹霞山（长老峰）",
+      "location": "广东 韶关",
+      "region": "华南",
+      "coords": "25.010N 113.750E",
+      "peak_elevation": 408,
+      "base_elevation": 50,
+      "terrain_type": "石阶+丹霞栈道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 400,
+      "spring_summer_base_temp": "15-28℃",
+      "spring_summer_peak_temp": "13-26℃",
+      "autumn_winter_base_temp": "7-17℃",
+      "autumn_winter_peak_temp": "5-15℃",
+      "temp_diff": "5-8℃",
+      "precip_probability_pct": 45,
+      "annual_precip_mm": 1700,
+      "avg_wind_mps": 3.0,
+      "risks": "湿滑、汛期",
+      "notes": "丹霞地貌命名地，阳元石",
+      "latitude": 25.01,
+      "longitude": 113.75,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 15.0,
+        "max": -28.0,
+        "raw": "15-28℃"
+      },
+      "ss_peak": {
+        "min": 13.0,
+        "max": -26.0,
+        "raw": "13-26℃"
+      },
+      "aw_base": {
+        "min": 7.0,
+        "max": -17.0,
+        "raw": "7-17℃"
+      },
+      "aw_peak": {
+        "min": 5.0,
+        "max": -15.0,
+        "raw": "5-15℃"
+      },
+      "temp_diff_range": {
+        "min": 5.0,
+        "max": -8.0,
+        "raw": "5-8℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "汛期"
+      ],
+      "province": "广东",
+      "cities": [
+        "韶关"
+      ],
+      "id": "M037"
+    },
+    {
+      "name": "罗浮山（飞云顶）",
+      "location": "广东 惠州",
+      "region": "华南",
+      "coords": "23.280N 114.050E",
+      "peak_elevation": 1296,
+      "base_elevation": 100,
+      "terrain_type": "石阶，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 1100,
+      "spring_summer_base_temp": "14-27℃",
+      "spring_summer_peak_temp": "9-20℃",
+      "autumn_winter_base_temp": "7-16℃",
+      "autumn_winter_peak_temp": "2-11℃",
+      "temp_diff": "6-9℃",
+      "precip_probability_pct": 45,
+      "annual_precip_mm": 2000,
+      "avg_wind_mps": 5.0,
+      "risks": "湿滑、云雾、台风",
+      "notes": "岭南第一山，冲虚古观",
+      "latitude": 23.28,
+      "longitude": 114.05,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 14.0,
+        "max": -27.0,
+        "raw": "14-27℃"
+      },
+      "ss_peak": {
+        "min": 9.0,
+        "max": -20.0,
+        "raw": "9-20℃"
+      },
+      "aw_base": {
+        "min": 7.0,
+        "max": -16.0,
+        "raw": "7-16℃"
+      },
+      "aw_peak": {
+        "min": 2.0,
+        "max": -11.0,
+        "raw": "2-11℃"
+      },
+      "temp_diff_range": {
+        "min": 6.0,
+        "max": -9.0,
+        "raw": "6-9℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "云雾",
+        "台风"
+      ],
+      "province": "广东",
+      "cities": [
+        "惠州"
+      ],
+      "id": "M038"
+    },
+    {
+      "name": "鼎湖山",
+      "location": "广东 肇庆",
+      "region": "华南",
+      "coords": "23.160N 112.500E",
+      "peak_elevation": 1000,
+      "base_elevation": 50,
+      "terrain_type": "石阶+林道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "14-27℃",
+      "spring_summer_peak_temp": "12-22℃",
+      "autumn_winter_base_temp": "8-17℃",
+      "autumn_winter_peak_temp": "4-12℃",
+      "temp_diff": "5-8℃",
+      "precip_probability_pct": 45,
+      "annual_precip_mm": 1900,
+      "avg_wind_mps": 4.0,
+      "risks": "湿滑、多雨",
+      "notes": "国家级自然保护区，飞水潭",
+      "latitude": 23.16,
+      "longitude": 112.5,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 14.0,
+        "max": -27.0,
+        "raw": "14-27℃"
+      },
+      "ss_peak": {
+        "min": 12.0,
+        "max": -22.0,
+        "raw": "12-22℃"
+      },
+      "aw_base": {
+        "min": 8.0,
+        "max": -17.0,
+        "raw": "8-17℃"
+      },
+      "aw_peak": {
+        "min": 4.0,
+        "max": -12.0,
+        "raw": "4-12℃"
+      },
+      "temp_diff_range": {
+        "min": 5.0,
+        "max": -8.0,
+        "raw": "5-8℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "多雨"
+      ],
+      "province": "广东",
+      "cities": [
+        "肇庆"
+      ],
+      "id": "M039"
+    },
+    {
+      "name": "西樵山",
+      "location": "广东 佛山",
+      "region": "华南",
+      "coords": "22.930N 112.970E",
+      "peak_elevation": 381,
+      "base_elevation": 20,
+      "terrain_type": "步道+石阶，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 300,
+      "spring_summer_base_temp": "15-28℃",
+      "spring_summer_peak_temp": "14-26℃",
+      "autumn_winter_base_temp": "9-18℃",
+      "autumn_winter_peak_temp": "7-16℃",
+      "temp_diff": "4-7℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1700,
+      "avg_wind_mps": 3.0,
+      "risks": "晴热",
+      "notes": "南海，白云洞-天湖",
+      "latitude": 22.93,
+      "longitude": 112.97,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 15.0,
+        "max": -28.0,
+        "raw": "15-28℃"
+      },
+      "ss_peak": {
+        "min": 14.0,
+        "max": -26.0,
+        "raw": "14-26℃"
+      },
+      "aw_base": {
+        "min": 9.0,
+        "max": -18.0,
+        "raw": "9-18℃"
+      },
+      "aw_peak": {
+        "min": 7.0,
+        "max": -16.0,
+        "raw": "7-16℃"
+      },
+      "temp_diff_range": {
+        "min": 4.0,
+        "max": -7.0,
+        "raw": "4-7℃"
+      },
+      "risk_list": [
+        "晴热"
+      ],
+      "province": "广东",
+      "cities": [
+        "佛山"
+      ],
+      "id": "M040"
+    },
+    {
+      "name": "莽山（天台山）",
+      "location": "湖南 郴州宜章",
+      "region": "华南",
+      "coords": "24.930N 112.750E",
+      "peak_elevation": 1902,
+      "base_elevation": 400,
+      "terrain_type": "盘山公路+石阶，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "13-25℃",
+      "spring_summer_peak_temp": "5-15℃",
+      "autumn_winter_base_temp": "5-15℃",
+      "autumn_winter_peak_temp": "-5-4℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 45,
+      "annual_precip_mm": 1900,
+      "avg_wind_mps": 5.0,
+      "risks": "云雾、湿滑、冬季冰凌",
+      "notes": "莽山国家森林公园，湘粤交界",
+      "latitude": 24.93,
+      "longitude": 112.75,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 13.0,
+        "max": -25.0,
+        "raw": "13-25℃"
+      },
+      "ss_peak": {
+        "min": 5.0,
+        "max": -15.0,
+        "raw": "5-15℃"
+      },
+      "aw_base": {
+        "min": 5.0,
+        "max": -15.0,
+        "raw": "5-15℃"
+      },
+      "aw_peak": {
+        "min": -5.0,
+        "max": -4.0,
+        "raw": "-5-4℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "云雾",
+        "湿滑",
+        "冬季冰凌"
+      ],
+      "province": "湖南",
+      "cities": [
+        "郴州宜章"
+      ],
+      "id": "M041"
+    },
+    {
+      "name": "猫儿山（华南之巅）",
+      "location": "广西 桂林兴安",
+      "region": "华南",
+      "coords": "25.760N 110.400E",
+      "peak_elevation": 2142,
+      "base_elevation": 300,
+      "terrain_type": "盘山公路+石阶，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1200,
+      "spring_summer_base_temp": "12-24℃",
+      "spring_summer_peak_temp": "3-13℃",
+      "autumn_winter_base_temp": "4-14℃",
+      "autumn_winter_peak_temp": "-9-0℃",
+      "temp_diff": "10-14℃",
+      "precip_probability_pct": 50,
+      "annual_precip_mm": 2400,
+      "avg_wind_mps": 6.0,
+      "risks": "高海拔云雾、低温、风大",
+      "notes": "华南最高峰，漓江源头",
+      "latitude": 25.76,
+      "longitude": 110.4,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 12.0,
+        "max": -24.0,
+        "raw": "12-24℃"
+      },
+      "ss_peak": {
+        "min": 3.0,
+        "max": -13.0,
+        "raw": "3-13℃"
+      },
+      "aw_base": {
+        "min": 4.0,
+        "max": -14.0,
+        "raw": "4-14℃"
+      },
+      "aw_peak": {
+        "min": -9.0,
+        "max": -0.0,
+        "raw": "-9-0℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -14.0,
+        "raw": "10-14℃"
+      },
+      "risk_list": [
+        "高海拔云雾",
+        "低温",
+        "风大"
+      ],
+      "province": "广西",
+      "cities": [
+        "桂林兴安"
+      ],
+      "id": "M042"
+    },
+    {
+      "name": "大明山",
+      "location": "广西 南宁",
+      "region": "华南",
+      "coords": "23.500N 108.450E",
+      "peak_elevation": 1760,
+      "base_elevation": 300,
+      "terrain_type": "盘山公路+步道，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 1000,
+      "spring_summer_base_temp": "13-26℃",
+      "spring_summer_peak_temp": "5-15℃",
+      "autumn_winter_base_temp": "5-15℃",
+      "autumn_winter_peak_temp": "-5-4℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 50,
+      "annual_precip_mm": 2200,
+      "avg_wind_mps": 5.0,
+      "risks": "云雾、湿滑、冬冰凌",
+      "notes": "南宁后花园，避暑",
+      "latitude": 23.5,
+      "longitude": 108.45,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 13.0,
+        "max": -26.0,
+        "raw": "13-26℃"
+      },
+      "ss_peak": {
+        "min": 5.0,
+        "max": -15.0,
+        "raw": "5-15℃"
+      },
+      "aw_base": {
+        "min": 5.0,
+        "max": -15.0,
+        "raw": "5-15℃"
+      },
+      "aw_peak": {
+        "min": -5.0,
+        "max": -4.0,
+        "raw": "-5-4℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "云雾",
+        "湿滑",
+        "冬冰凌"
+      ],
+      "province": "广西",
+      "cities": [
+        "南宁"
+      ],
+      "id": "M043"
+    },
+    {
+      "name": "青秀山",
+      "location": "广西 南宁",
+      "region": "华南",
+      "coords": "22.800N 108.400E",
+      "peak_elevation": 289,
+      "base_elevation": 10,
+      "terrain_type": "步道，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 5.0,
+      "round_trip_hours": 2.0,
+      "total_climb_m": 250,
+      "spring_summer_base_temp": "15-28℃",
+      "spring_summer_peak_temp": "14-27℃",
+      "autumn_winter_base_temp": "9-18℃",
+      "autumn_winter_peak_temp": "8-16℃",
+      "temp_diff": "4-7℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1600,
+      "avg_wind_mps": 3.0,
+      "risks": "晴热",
+      "notes": "南宁市区园林山",
+      "latitude": 22.8,
+      "longitude": 108.4,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 15.0,
+        "max": -28.0,
+        "raw": "15-28℃"
+      },
+      "ss_peak": {
+        "min": 14.0,
+        "max": -27.0,
+        "raw": "14-27℃"
+      },
+      "aw_base": {
+        "min": 9.0,
+        "max": -18.0,
+        "raw": "9-18℃"
+      },
+      "aw_peak": {
+        "min": 8.0,
+        "max": -16.0,
+        "raw": "8-16℃"
+      },
+      "temp_diff_range": {
+        "min": 4.0,
+        "max": -7.0,
+        "raw": "4-7℃"
+      },
+      "risk_list": [
+        "晴热"
+      ],
+      "province": "广西",
+      "cities": [
+        "南宁"
+      ],
+      "id": "M044"
+    },
+    {
+      "name": "姑婆山",
+      "location": "广西 贺州",
+      "region": "华南",
+      "coords": "24.680N 111.550E",
+      "peak_elevation": 1730,
+      "base_elevation": 200,
+      "terrain_type": "石阶+林道，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 1000,
+      "spring_summer_base_temp": "13-25℃",
+      "spring_summer_peak_temp": "6-16℃",
+      "autumn_winter_base_temp": "5-14℃",
+      "autumn_winter_peak_temp": "-3-5℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 50,
+      "annual_precip_mm": 2100,
+      "avg_wind_mps": 5.0,
+      "risks": "湿滑、多雾",
+      "notes": "桂东最高峰之一，瀑布群",
+      "latitude": 24.68,
+      "longitude": 111.55,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 13.0,
+        "max": -25.0,
+        "raw": "13-25℃"
+      },
+      "ss_peak": {
+        "min": 6.0,
+        "max": -16.0,
+        "raw": "6-16℃"
+      },
+      "aw_base": {
+        "min": 5.0,
+        "max": -14.0,
+        "raw": "5-14℃"
+      },
+      "aw_peak": {
+        "min": -3.0,
+        "max": -5.0,
+        "raw": "-3-5℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "多雾"
+      ],
+      "province": "广西",
+      "cities": [
+        "贺州"
+      ],
+      "id": "M045"
+    },
+    {
+      "name": "五指山",
+      "location": "海南 五指山",
+      "region": "华南",
+      "coords": "18.900N 109.680E",
+      "peak_elevation": 1867,
+      "base_elevation": 300,
+      "terrain_type": "石阶+野路，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 1200,
+      "spring_summer_base_temp": "15-26℃",
+      "spring_summer_peak_temp": "8-18℃",
+      "autumn_winter_base_temp": "10-20℃",
+      "autumn_winter_peak_temp": "5-15℃",
+      "temp_diff": "6-9℃",
+      "precip_probability_pct": 60,
+      "annual_precip_mm": 2300,
+      "avg_wind_mps": 4.0,
+      "risks": "台风季、湿热、蚊虫",
+      "notes": "海南最高峰，热带雨林",
+      "latitude": 18.9,
+      "longitude": 109.68,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 15.0,
+        "max": -26.0,
+        "raw": "15-26℃"
+      },
+      "ss_peak": {
+        "min": 8.0,
+        "max": -18.0,
+        "raw": "8-18℃"
+      },
+      "aw_base": {
+        "min": 10.0,
+        "max": -20.0,
+        "raw": "10-20℃"
+      },
+      "aw_peak": {
+        "min": 5.0,
+        "max": -15.0,
+        "raw": "5-15℃"
+      },
+      "temp_diff_range": {
+        "min": 6.0,
+        "max": -9.0,
+        "raw": "6-9℃"
+      },
+      "risk_list": [
+        "台风季",
+        "湿热",
+        "蚊虫"
+      ],
+      "province": "海南",
+      "cities": [
+        "五指山"
+      ],
+      "id": "M046"
+    },
+    {
+      "name": "尖峰岭",
+      "location": "海南 乐东",
+      "region": "华南",
+      "coords": "18.680N 108.800E",
+      "peak_elevation": 1412,
+      "base_elevation": 200,
+      "terrain_type": "步道+野路，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "15-27℃",
+      "spring_summer_peak_temp": "9-19℃",
+      "autumn_winter_base_temp": "10-20℃",
+      "autumn_winter_peak_temp": "5-15℃",
+      "temp_diff": "6-9℃",
+      "precip_probability_pct": 55,
+      "annual_precip_mm": 2200,
+      "avg_wind_mps": 4.0,
+      "risks": "台风季、湿热、蚊虫",
+      "notes": "热带雨林，主峰",
+      "latitude": 18.68,
+      "longitude": 108.8,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 15.0,
+        "max": -27.0,
+        "raw": "15-27℃"
+      },
+      "ss_peak": {
+        "min": 9.0,
+        "max": -19.0,
+        "raw": "9-19℃"
+      },
+      "aw_base": {
+        "min": 10.0,
+        "max": -20.0,
+        "raw": "10-20℃"
+      },
+      "aw_peak": {
+        "min": 5.0,
+        "max": -15.0,
+        "raw": "5-15℃"
+      },
+      "temp_diff_range": {
+        "min": 6.0,
+        "max": -9.0,
+        "raw": "6-9℃"
+      },
+      "risk_list": [
+        "台风季",
+        "湿热",
+        "蚊虫"
+      ],
+      "province": "海南",
+      "cities": [
+        "乐东"
+      ],
+      "id": "M047"
+    },
+    {
+      "name": "五台山（北台叶斗峰）",
+      "location": "山西 忻州",
+      "region": "华北",
+      "coords": "39.000N 113.540E",
+      "peak_elevation": 3061,
+      "base_elevation": 1600,
+      "terrain_type": "盘山公路+步道，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1300,
+      "spring_summer_base_temp": "5-18℃",
+      "spring_summer_peak_temp": "-3-10℃",
+      "autumn_winter_base_temp": "-10-2℃",
+      "autumn_winter_peak_temp": "-18--8℃",
+      "temp_diff": "10-16℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 500,
+      "avg_wind_mps": 8.0,
+      "risks": "高海拔低温、风大、冬季封山",
+      "notes": "华北屋脊，清凉世界",
+      "latitude": 39.0,
+      "longitude": 113.54,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 5.0,
+        "max": -18.0,
+        "raw": "5-18℃"
+      },
+      "ss_peak": {
+        "min": -3.0,
+        "max": -10.0,
+        "raw": "-3-10℃"
+      },
+      "aw_base": {
+        "min": -10.0,
+        "max": -2.0,
+        "raw": "-10-2℃"
+      },
+      "aw_peak": {
+        "min": -18.0,
+        "max": -8.0,
+        "raw": "-18--8℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -16.0,
+        "raw": "10-16℃"
+      },
+      "risk_list": [
+        "高海拔低温",
+        "风大",
+        "冬季封山"
+      ],
+      "province": "山西",
+      "cities": [
+        "忻州"
+      ],
+      "id": "M048"
+    },
+    {
+      "name": "恒山（天峰岭）",
+      "location": "山西 大同",
+      "region": "华北",
+      "coords": "39.680N 113.680E",
+      "peak_elevation": 2016,
+      "base_elevation": 1100,
+      "terrain_type": "石阶+公路，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "6-18℃",
+      "spring_summer_peak_temp": "0-12℃",
+      "autumn_winter_base_temp": "-8-4℃",
+      "autumn_winter_peak_temp": "-14--4℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 450,
+      "avg_wind_mps": 6.0,
+      "risks": "冬雪、风大",
+      "notes": "五岳之北岳，悬空寺",
+      "latitude": 39.68,
+      "longitude": 113.68,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 6.0,
+        "max": -18.0,
+        "raw": "6-18℃"
+      },
+      "ss_peak": {
+        "min": 0.0,
+        "max": -12.0,
+        "raw": "0-12℃"
+      },
+      "aw_base": {
+        "min": -8.0,
+        "max": -4.0,
+        "raw": "-8-4℃"
+      },
+      "aw_peak": {
+        "min": -14.0,
+        "max": -4.0,
+        "raw": "-14--4℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "冬雪",
+        "风大"
+      ],
+      "province": "山西",
+      "cities": [
+        "大同"
+      ],
+      "id": "M049"
+    },
+    {
+      "name": "北武当山",
+      "location": "山西 吕梁方山",
+      "region": "华北",
+      "coords": "37.900N 111.200E",
+      "peak_elevation": 1985,
+      "base_elevation": 1400,
+      "terrain_type": "石阶+野路，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "6-18℃",
+      "spring_summer_peak_temp": "0-11℃",
+      "autumn_winter_base_temp": "-8-3℃",
+      "autumn_winter_peak_temp": "-13--4℃",
+      "temp_diff": "9-14℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 450,
+      "avg_wind_mps": 7.0,
+      "risks": "风大、低温、冬雪",
+      "notes": "三晋名山，真武庙",
+      "latitude": 37.9,
+      "longitude": 111.2,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 6.0,
+        "max": -18.0,
+        "raw": "6-18℃"
+      },
+      "ss_peak": {
+        "min": 0.0,
+        "max": -11.0,
+        "raw": "0-11℃"
+      },
+      "aw_base": {
+        "min": -8.0,
+        "max": -3.0,
+        "raw": "-8-3℃"
+      },
+      "aw_peak": {
+        "min": -13.0,
+        "max": -4.0,
+        "raw": "-13--4℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -14.0,
+        "raw": "9-14℃"
+      },
+      "risk_list": [
+        "风大",
+        "低温",
+        "冬雪"
+      ],
+      "province": "山西",
+      "cities": [
+        "吕梁方山"
+      ],
+      "id": "M050"
+    },
+    {
+      "name": "太行山大峡谷",
+      "location": "山西长治/河南林州",
+      "region": "华北",
+      "coords": "35.900N 113.500E",
+      "peak_elevation": 1700,
+      "base_elevation": 300,
+      "terrain_type": "栈道+峡谷步道，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "9-22℃",
+      "spring_summer_peak_temp": "4-14℃",
+      "autumn_winter_base_temp": "-3-7℃",
+      "autumn_winter_peak_temp": "-8--1℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 700,
+      "avg_wind_mps": 4.0,
+      "risks": "峡谷风、湿滑",
+      "notes": "太行峡谷群，壁挂公路",
+      "latitude": 35.9,
+      "longitude": 113.5,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 9.0,
+        "max": -22.0,
+        "raw": "9-22℃"
+      },
+      "ss_peak": {
+        "min": 4.0,
+        "max": -14.0,
+        "raw": "4-14℃"
+      },
+      "aw_base": {
+        "min": -3.0,
+        "max": -7.0,
+        "raw": "-3-7℃"
+      },
+      "aw_peak": {
+        "min": -8.0,
+        "max": -1.0,
+        "raw": "-8--1℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "峡谷风",
+        "湿滑"
+      ],
+      "province": "山西长治",
+      "cities": [
+        "河南林州"
+      ],
+      "id": "M051"
+    },
+    {
+      "name": "香山",
+      "location": "北京",
+      "region": "华北",
+      "coords": "39.980N 116.190E",
+      "peak_elevation": 557,
+      "base_elevation": 60,
+      "terrain_type": "步道+台阶，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 500,
+      "spring_summer_base_temp": "12-26℃",
+      "spring_summer_peak_temp": "10-23℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-3-5℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 25,
+      "annual_precip_mm": 580,
+      "avg_wind_mps": 4.0,
+      "risks": "红叶季拥堵",
+      "notes": "香山公园，鬼见愁",
+      "latitude": 39.98,
+      "longitude": 116.19,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -26.0,
+        "raw": "12-26℃"
+      },
+      "ss_peak": {
+        "min": 10.0,
+        "max": -23.0,
+        "raw": "10-23℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -3.0,
+        "max": -5.0,
+        "raw": "-3-5℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "红叶季拥堵"
+      ],
+      "province": "北京",
+      "cities": [],
+      "id": "M052"
+    },
+    {
+      "name": "雾灵山",
+      "location": "北京密云/河北兴隆",
+      "region": "华北",
+      "coords": "40.610N 117.440E",
+      "peak_elevation": 2118,
+      "base_elevation": 800,
+      "terrain_type": "盘山公路+步道，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 1000,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "2-12℃",
+      "autumn_winter_base_temp": "-6-5℃",
+      "autumn_winter_peak_temp": "-12--3℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 650,
+      "avg_wind_mps": 6.0,
+      "risks": "低温、风大、冬季封闭",
+      "notes": "华北第一高峰",
+      "latitude": 40.61,
+      "longitude": 117.44,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 2.0,
+        "max": -12.0,
+        "raw": "2-12℃"
+      },
+      "aw_base": {
+        "min": -6.0,
+        "max": -5.0,
+        "raw": "-6-5℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -3.0,
+        "raw": "-12--3℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "低温",
+        "风大",
+        "冬季封闭"
+      ],
+      "province": "北京密云",
+      "cities": [
+        "河北兴隆"
+      ],
+      "id": "M053"
+    },
+    {
+      "name": "东灵山",
+      "location": "北京 门头沟",
+      "region": "华北",
+      "coords": "40.030N 115.440E",
+      "peak_elevation": 2303,
+      "base_elevation": 1200,
+      "terrain_type": "草甸+野路，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 14.0,
+      "round_trip_hours": 7.0,
+      "total_climb_m": 1100,
+      "spring_summer_base_temp": "8-20℃",
+      "spring_summer_peak_temp": "0-11℃",
+      "autumn_winter_base_temp": "-8-2℃",
+      "autumn_winter_peak_temp": "-14--5℃",
+      "temp_diff": "9-14℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 550,
+      "avg_wind_mps": 7.0,
+      "risks": "高海拔风大、失温、雪季封山",
+      "notes": "京郊最高峰，高山草甸",
+      "latitude": 40.03,
+      "longitude": 115.44,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "ss_peak": {
+        "min": 0.0,
+        "max": -11.0,
+        "raw": "0-11℃"
+      },
+      "aw_base": {
+        "min": -8.0,
+        "max": -2.0,
+        "raw": "-8-2℃"
+      },
+      "aw_peak": {
+        "min": -14.0,
+        "max": -5.0,
+        "raw": "-14--5℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -14.0,
+        "raw": "9-14℃"
+      },
+      "risk_list": [
+        "高海拔风大",
+        "失温",
+        "雪季封山"
+      ],
+      "province": "北京",
+      "cities": [
+        "门头沟"
+      ],
+      "id": "M054"
+    },
+    {
+      "name": "盘山",
+      "location": "天津 蓟州",
+      "region": "华北",
+      "coords": "40.070N 117.370E",
+      "peak_elevation": 864,
+      "base_elevation": 50,
+      "terrain_type": "石阶+索道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "11-24℃",
+      "spring_summer_peak_temp": "9-20℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-3-4℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 600,
+      "avg_wind_mps": 4.0,
+      "risks": "湿滑",
+      "notes": "京东第一山，乾隆御题",
+      "latitude": 40.07,
+      "longitude": 117.37,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 11.0,
+        "max": -24.0,
+        "raw": "11-24℃"
+      },
+      "ss_peak": {
+        "min": 9.0,
+        "max": -20.0,
+        "raw": "9-20℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -3.0,
+        "max": -4.0,
+        "raw": "-3-4℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "湿滑"
+      ],
+      "province": "天津",
+      "cities": [
+        "蓟州"
+      ],
+      "id": "M055"
+    },
+    {
+      "name": "白石山",
+      "location": "河北 保定涞源",
+      "region": "华北",
+      "coords": "39.120N 114.730E",
+      "peak_elevation": 2096,
+      "base_elevation": 1300,
+      "terrain_type": "栈道+石阶，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "8-20℃",
+      "spring_summer_peak_temp": "2-12℃",
+      "autumn_winter_base_temp": "-6-4℃",
+      "autumn_winter_peak_temp": "-12--3℃",
+      "temp_diff": "9-14℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 600,
+      "avg_wind_mps": 6.0,
+      "risks": "高崖栈道风大、云雾",
+      "notes": "大理岩峰林，玻璃栈道",
+      "latitude": 39.12,
+      "longitude": 114.73,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "ss_peak": {
+        "min": 2.0,
+        "max": -12.0,
+        "raw": "2-12℃"
+      },
+      "aw_base": {
+        "min": -6.0,
+        "max": -4.0,
+        "raw": "-6-4℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -3.0,
+        "raw": "-12--3℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -14.0,
+        "raw": "9-14℃"
+      },
+      "risk_list": [
+        "高崖栈道风大",
+        "云雾"
+      ],
+      "province": "河北",
+      "cities": [
+        "保定涞源"
+      ],
+      "id": "M056"
+    },
+    {
+      "name": "野三坡百里峡",
+      "location": "河北 保定涞水",
+      "region": "华北",
+      "coords": "39.600N 115.400E",
+      "peak_elevation": 1180,
+      "base_elevation": 300,
+      "terrain_type": "峡谷步道，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 500,
+      "spring_summer_base_temp": "9-22℃",
+      "spring_summer_peak_temp": "6-17℃",
+      "autumn_winter_base_temp": "-4-6℃",
+      "autumn_winter_peak_temp": "-8--1℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 550,
+      "avg_wind_mps": 4.0,
+      "risks": "峡谷湿滑、汛期",
+      "notes": "北方小桂林，峡谷",
+      "latitude": 39.6,
+      "longitude": 115.4,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 9.0,
+        "max": -22.0,
+        "raw": "9-22℃"
+      },
+      "ss_peak": {
+        "min": 6.0,
+        "max": -17.0,
+        "raw": "6-17℃"
+      },
+      "aw_base": {
+        "min": -4.0,
+        "max": -6.0,
+        "raw": "-4-6℃"
+      },
+      "aw_peak": {
+        "min": -8.0,
+        "max": -1.0,
+        "raw": "-8--1℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "峡谷湿滑",
+        "汛期"
+      ],
+      "province": "河北",
+      "cities": [
+        "保定涞水"
+      ],
+      "id": "M057"
+    },
+    {
+      "name": "嶂石岩",
+      "location": "河北 石家庄赞皇",
+      "region": "华北",
+      "coords": "37.500N 114.100E",
+      "peak_elevation": 1797,
+      "base_elevation": 700,
+      "terrain_type": "石阶+野路，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1000,
+      "spring_summer_base_temp": "8-20℃",
+      "spring_summer_peak_temp": "3-13℃",
+      "autumn_winter_base_temp": "-6-4℃",
+      "autumn_winter_peak_temp": "-11--3℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 600,
+      "avg_wind_mps": 5.0,
+      "risks": "湿滑、风大",
+      "notes": "嶂石岩地貌，九女峰",
+      "latitude": 37.5,
+      "longitude": 114.1,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "ss_peak": {
+        "min": 3.0,
+        "max": -13.0,
+        "raw": "3-13℃"
+      },
+      "aw_base": {
+        "min": -6.0,
+        "max": -4.0,
+        "raw": "-6-4℃"
+      },
+      "aw_peak": {
+        "min": -11.0,
+        "max": -3.0,
+        "raw": "-11--3℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "风大"
+      ],
+      "province": "河北",
+      "cities": [
+        "石家庄赞皇"
+      ],
+      "id": "M058"
+    },
+    {
+      "name": "苍岩山",
+      "location": "河北 石家庄井陉",
+      "region": "华北",
+      "coords": "37.840N 114.000E",
+      "peak_elevation": 1039,
+      "base_elevation": 500,
+      "terrain_type": "石阶+栈道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 500,
+      "spring_summer_base_temp": "9-22℃",
+      "spring_summer_peak_temp": "7-17℃",
+      "autumn_winter_base_temp": "-4-6℃",
+      "autumn_winter_peak_temp": "-8--1℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 550,
+      "avg_wind_mps": 4.0,
+      "risks": "湿滑、栈道注意",
+      "notes": "桥楼殿，悬空寺庙",
+      "latitude": 37.84,
+      "longitude": 114.0,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 9.0,
+        "max": -22.0,
+        "raw": "9-22℃"
+      },
+      "ss_peak": {
+        "min": 7.0,
+        "max": -17.0,
+        "raw": "7-17℃"
+      },
+      "aw_base": {
+        "min": -4.0,
+        "max": -6.0,
+        "raw": "-4-6℃"
+      },
+      "aw_peak": {
+        "min": -8.0,
+        "max": -1.0,
+        "raw": "-8--1℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "栈道注意"
+      ],
+      "province": "河北",
+      "cities": [
+        "石家庄井陉"
+      ],
+      "id": "M059"
+    },
+    {
+      "name": "大青山（呼和浩特）",
+      "location": "内蒙古 呼和浩特",
+      "region": "华北",
+      "coords": "40.800N 111.900E",
+      "peak_elevation": 2000,
+      "base_elevation": 1100,
+      "terrain_type": "草甸+野路，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "5-18℃",
+      "spring_summer_peak_temp": "0-12℃",
+      "autumn_winter_base_temp": "-10-0℃",
+      "autumn_winter_peak_temp": "-16--8℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 25,
+      "annual_precip_mm": 350,
+      "avg_wind_mps": 8.0,
+      "risks": "风大、低温、草原多风沙",
+      "notes": "阴山支脉，呼和浩特城北",
+      "latitude": 40.8,
+      "longitude": 111.9,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 5.0,
+        "max": -18.0,
+        "raw": "5-18℃"
+      },
+      "ss_peak": {
+        "min": 0.0,
+        "max": -12.0,
+        "raw": "0-12℃"
+      },
+      "aw_base": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "aw_peak": {
+        "min": -16.0,
+        "max": -8.0,
+        "raw": "-16--8℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "风大",
+        "低温",
+        "草原多风沙"
+      ],
+      "province": "内蒙古",
+      "cities": [
+        "呼和浩特"
+      ],
+      "id": "M060"
+    },
+    {
+      "name": "华山",
+      "location": "陕西 渭南华阴",
+      "region": "西北",
+      "coords": "34.480N 110.090E",
+      "peak_elevation": 2155,
+      "base_elevation": 400,
+      "terrain_type": "石阶陡峭+铁索，高陡",
+      "difficulty": "高难度",
+      "round_trip_km": 16.0,
+      "round_trip_hours": 10.0,
+      "total_climb_m": 1600,
+      "spring_summer_base_temp": "10-23℃",
+      "spring_summer_peak_temp": "2-13℃",
+      "autumn_winter_base_temp": "-2-9℃",
+      "autumn_winter_peak_temp": "-12--2℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 650,
+      "avg_wind_mps": 8.0,
+      "risks": "极陡、夜爬、冬雪结冰、人多",
+      "notes": "五岳之西岳，自古华山一条路",
+      "latitude": 34.48,
+      "longitude": 110.09,
+      "difficulty_level": 3,
+      "ss_base": {
+        "min": 10.0,
+        "max": -23.0,
+        "raw": "10-23℃"
+      },
+      "ss_peak": {
+        "min": 2.0,
+        "max": -13.0,
+        "raw": "2-13℃"
+      },
+      "aw_base": {
+        "min": -2.0,
+        "max": -9.0,
+        "raw": "-2-9℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -2.0,
+        "raw": "-12--2℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "极陡",
+        "夜爬",
+        "冬雪结冰",
+        "人多"
+      ],
+      "province": "陕西",
+      "cities": [
+        "渭南华阴"
+      ],
+      "id": "M061"
+    },
+    {
+      "name": "太白山（拔仙台）",
+      "location": "陕西 宝鸡眉县",
+      "region": "西北",
+      "coords": "34.030N 107.500E",
+      "peak_elevation": 3771,
+      "base_elevation": 800,
+      "terrain_type": "草甸+野路+高海拔，高",
+      "difficulty": "高难度",
+      "round_trip_km": 20.0,
+      "round_trip_hours": 12.0,
+      "total_climb_m": 2000,
+      "spring_summer_base_temp": "6-16℃",
+      "spring_summer_peak_temp": "-6-8℃",
+      "autumn_winter_base_temp": "-10-2℃",
+      "autumn_winter_peak_temp": "-20--8℃",
+      "temp_diff": "12-18℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 750,
+      "avg_wind_mps": 9.0,
+      "risks": "高海拔缺氧、低温、失温、天气多变",
+      "notes": "秦岭主峰，中国大陆东部最高",
+      "latitude": 34.03,
+      "longitude": 107.5,
+      "difficulty_level": 3,
+      "ss_base": {
+        "min": 6.0,
+        "max": -16.0,
+        "raw": "6-16℃"
+      },
+      "ss_peak": {
+        "min": -6.0,
+        "max": -8.0,
+        "raw": "-6-8℃"
+      },
+      "aw_base": {
+        "min": -10.0,
+        "max": -2.0,
+        "raw": "-10-2℃"
+      },
+      "aw_peak": {
+        "min": -20.0,
+        "max": -8.0,
+        "raw": "-20--8℃"
+      },
+      "temp_diff_range": {
+        "min": 12.0,
+        "max": -18.0,
+        "raw": "12-18℃"
+      },
+      "risk_list": [
+        "高海拔缺氧",
+        "低温",
+        "失温",
+        "天气多变"
+      ],
+      "province": "陕西",
+      "cities": [
+        "宝鸡眉县"
+      ],
+      "id": "M062"
+    },
+    {
+      "name": "骊山",
+      "location": "陕西 西安临潼",
+      "region": "西北",
+      "coords": "34.360N 109.210E",
+      "peak_elevation": 1302,
+      "base_elevation": 400,
+      "terrain_type": "石阶+公路，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "10-24℃",
+      "spring_summer_peak_temp": "7-20℃",
+      "autumn_winter_base_temp": "0-10℃",
+      "autumn_winter_peak_temp": "-4-5℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 600,
+      "avg_wind_mps": 3.0,
+      "risks": "晴热",
+      "notes": "华清宫-烽火台",
+      "latitude": 34.36,
+      "longitude": 109.21,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 10.0,
+        "max": -24.0,
+        "raw": "10-24℃"
+      },
+      "ss_peak": {
+        "min": 7.0,
+        "max": -20.0,
+        "raw": "7-20℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -10.0,
+        "raw": "0-10℃"
+      },
+      "aw_peak": {
+        "min": -4.0,
+        "max": -5.0,
+        "raw": "-4-5℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "晴热"
+      ],
+      "province": "陕西",
+      "cities": [
+        "西安临潼"
+      ],
+      "id": "M063"
+    },
+    {
+      "name": "终南山（翠华山）",
+      "location": "陕西 西安",
+      "region": "西北",
+      "coords": "33.970N 108.980E",
+      "peak_elevation": 2604,
+      "base_elevation": 600,
+      "terrain_type": "石阶+野路，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 1400,
+      "spring_summer_base_temp": "8-20℃",
+      "spring_summer_peak_temp": "0-12℃",
+      "autumn_winter_base_temp": "-4-7℃",
+      "autumn_winter_peak_temp": "-12--3℃",
+      "temp_diff": "10-14℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 700,
+      "avg_wind_mps": 6.0,
+      "risks": "高海拔风大、湿滑",
+      "notes": "秦岭北麓，南五台",
+      "latitude": 33.97,
+      "longitude": 108.98,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "ss_peak": {
+        "min": 0.0,
+        "max": -12.0,
+        "raw": "0-12℃"
+      },
+      "aw_base": {
+        "min": -4.0,
+        "max": -7.0,
+        "raw": "-4-7℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -3.0,
+        "raw": "-12--3℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -14.0,
+        "raw": "10-14℃"
+      },
+      "risk_list": [
+        "高海拔风大",
+        "湿滑"
+      ],
+      "province": "陕西",
+      "cities": [
+        "西安"
+      ],
+      "id": "M064"
+    },
+    {
+      "name": "麦积山",
+      "location": "甘肃 天水",
+      "region": "西北",
+      "coords": "34.350N 105.980E",
+      "peak_elevation": 1740,
+      "base_elevation": 1100,
+      "terrain_type": "栈道+石窟，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "8-20℃",
+      "spring_summer_peak_temp": "4-15℃",
+      "autumn_winter_base_temp": "-5-6℃",
+      "autumn_winter_peak_temp": "-9--2℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 500,
+      "avg_wind_mps": 4.0,
+      "risks": "栈道陡、多雨期湿滑",
+      "notes": "麦积山石窟，东方雕塑馆",
+      "latitude": 34.35,
+      "longitude": 105.98,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "ss_peak": {
+        "min": 4.0,
+        "max": -15.0,
+        "raw": "4-15℃"
+      },
+      "aw_base": {
+        "min": -5.0,
+        "max": -6.0,
+        "raw": "-5-6℃"
+      },
+      "aw_peak": {
+        "min": -9.0,
+        "max": -2.0,
+        "raw": "-9--2℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "栈道陡",
+        "多雨期湿滑"
+      ],
+      "province": "甘肃",
+      "cities": [
+        "天水"
+      ],
+      "id": "M065"
+    },
+    {
+      "name": "崆峒山",
+      "location": "甘肃 平凉",
+      "region": "西北",
+      "coords": "35.560N 106.880E",
+      "peak_elevation": 2123,
+      "base_elevation": 1500,
+      "terrain_type": "石阶+野路，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "7-19℃",
+      "spring_summer_peak_temp": "1-12℃",
+      "autumn_winter_base_temp": "-7-4℃",
+      "autumn_winter_peak_temp": "-13--5℃",
+      "temp_diff": "9-14℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 500,
+      "avg_wind_mps": 7.0,
+      "risks": "风大、低温、冬雪",
+      "notes": "道教名山，黄帝问道处",
+      "latitude": 35.56,
+      "longitude": 106.88,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 7.0,
+        "max": -19.0,
+        "raw": "7-19℃"
+      },
+      "ss_peak": {
+        "min": 1.0,
+        "max": -12.0,
+        "raw": "1-12℃"
+      },
+      "aw_base": {
+        "min": -7.0,
+        "max": -4.0,
+        "raw": "-7-4℃"
+      },
+      "aw_peak": {
+        "min": -13.0,
+        "max": -5.0,
+        "raw": "-13--5℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -14.0,
+        "raw": "9-14℃"
+      },
+      "risk_list": [
+        "风大",
+        "低温",
+        "冬雪"
+      ],
+      "province": "甘肃",
+      "cities": [
+        "平凉"
+      ],
+      "id": "M066"
+    },
+    {
+      "name": "鸣沙山·月牙泉",
+      "location": "甘肃 敦煌",
+      "region": "西北",
+      "coords": "40.090N 94.670E",
+      "peak_elevation": 1700,
+      "base_elevation": 1100,
+      "terrain_type": "沙漠沙丘，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 100,
+      "spring_summer_base_temp": "12-30℃",
+      "spring_summer_peak_temp": "10-28℃",
+      "autumn_winter_base_temp": "-8-12℃",
+      "autumn_winter_peak_temp": "-10-8℃",
+      "temp_diff": "14-20℃",
+      "precip_probability_pct": 8,
+      "annual_precip_mm": 40,
+      "avg_wind_mps": 6.0,
+      "risks": "沙漠高温、风沙大、日晒",
+      "notes": "沙漠景观，非传统登山",
+      "latitude": 40.09,
+      "longitude": 94.67,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 12.0,
+        "max": -30.0,
+        "raw": "12-30℃"
+      },
+      "ss_peak": {
+        "min": 10.0,
+        "max": -28.0,
+        "raw": "10-28℃"
+      },
+      "aw_base": {
+        "min": -8.0,
+        "max": -12.0,
+        "raw": "-8-12℃"
+      },
+      "aw_peak": {
+        "min": -10.0,
+        "max": -8.0,
+        "raw": "-10-8℃"
+      },
+      "temp_diff_range": {
+        "min": 14.0,
+        "max": -20.0,
+        "raw": "14-20℃"
+      },
+      "risk_list": [
+        "沙漠高温",
+        "风沙大",
+        "日晒"
+      ],
+      "province": "甘肃",
+      "cities": [
+        "敦煌"
+      ],
+      "id": "M067"
+    },
+    {
+      "name": "六盘山（米缸山）",
+      "location": "宁夏固原/甘肃/陕西",
+      "region": "西北",
+      "coords": "35.680N 106.230E",
+      "peak_elevation": 2832,
+      "base_elevation": 2000,
+      "terrain_type": "石阶+草甸野路，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "5-17℃",
+      "spring_summer_peak_temp": "-2-9℃",
+      "autumn_winter_base_temp": "-10-0℃",
+      "autumn_winter_peak_temp": "-16--6℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 500,
+      "avg_wind_mps": 8.0,
+      "risks": "高海拔风大、低温",
+      "notes": "红军长征地，黄土高原绿岛",
+      "latitude": 35.68,
+      "longitude": 106.23,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 5.0,
+        "max": -17.0,
+        "raw": "5-17℃"
+      },
+      "ss_peak": {
+        "min": -2.0,
+        "max": -9.0,
+        "raw": "-2-9℃"
+      },
+      "aw_base": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "aw_peak": {
+        "min": -16.0,
+        "max": -6.0,
+        "raw": "-16--6℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "高海拔风大",
+        "低温"
+      ],
+      "province": "宁夏固原",
+      "cities": [
+        "甘肃",
+        "陕西"
+      ],
+      "id": "M068"
+    },
+    {
+      "name": "祁连山（八一冰川）",
+      "location": "甘肃/青海",
+      "region": "西北",
+      "coords": "38.930N 99.050E",
+      "peak_elevation": 4000,
+      "base_elevation": 2800,
+      "terrain_type": "高海拔冰川野路，极高",
+      "difficulty": "高难度",
+      "round_trip_km": 15.0,
+      "round_trip_hours": 9.0,
+      "total_climb_m": 1000,
+      "spring_summer_base_temp": "2-14℃",
+      "spring_summer_peak_temp": "-8-4℃",
+      "autumn_winter_base_temp": "-16--2℃",
+      "autumn_winter_peak_temp": "-26--14℃",
+      "temp_diff": "14-20℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 300,
+      "avg_wind_mps": 12.0,
+      "risks": "高海拔缺氧、低温、冰川风险",
+      "notes": "冰川科考路线，仅专业",
+      "latitude": 38.93,
+      "longitude": 99.05,
+      "difficulty_level": 3,
+      "ss_base": {
+        "min": 2.0,
+        "max": -14.0,
+        "raw": "2-14℃"
+      },
+      "ss_peak": {
+        "min": -8.0,
+        "max": -4.0,
+        "raw": "-8-4℃"
+      },
+      "aw_base": {
+        "min": -16.0,
+        "max": -2.0,
+        "raw": "-16--2℃"
+      },
+      "aw_peak": {
+        "min": -26.0,
+        "max": -14.0,
+        "raw": "-26--14℃"
+      },
+      "temp_diff_range": {
+        "min": 14.0,
+        "max": -20.0,
+        "raw": "14-20℃"
+      },
+      "risk_list": [
+        "高海拔缺氧",
+        "低温",
+        "冰川风险"
+      ],
+      "province": "甘肃",
+      "cities": [
+        "青海"
+      ],
+      "id": "M069"
+    },
+    {
+      "name": "岗什卡雪峰",
+      "location": "青海 海北门源",
+      "region": "西北",
+      "coords": "37.700N 101.800E",
+      "peak_elevation": 5254,
+      "base_elevation": 3800,
+      "terrain_type": "高海拔冰川，极高",
+      "difficulty": "高难度",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 8.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "0-10℃",
+      "spring_summer_peak_temp": "-12-0℃",
+      "autumn_winter_base_temp": "-18--4℃",
+      "autumn_winter_peak_temp": "-26--14℃",
+      "temp_diff": "14-22℃",
+      "precip_probability_pct": 25,
+      "annual_precip_mm": 400,
+      "avg_wind_mps": 10.0,
+      "risks": "高海拔缺氧、低温、冰裂缝",
+      "notes": "祁连山东段雪山，技术型山峰",
+      "latitude": 37.7,
+      "longitude": 101.8,
+      "difficulty_level": 3,
+      "ss_base": {
+        "min": 0.0,
+        "max": -10.0,
+        "raw": "0-10℃"
+      },
+      "ss_peak": {
+        "min": -12.0,
+        "max": -0.0,
+        "raw": "-12-0℃"
+      },
+      "aw_base": {
+        "min": -18.0,
+        "max": -4.0,
+        "raw": "-18--4℃"
+      },
+      "aw_peak": {
+        "min": -26.0,
+        "max": -14.0,
+        "raw": "-26--14℃"
+      },
+      "temp_diff_range": {
+        "min": 14.0,
+        "max": -22.0,
+        "raw": "14-22℃"
+      },
+      "risk_list": [
+        "高海拔缺氧",
+        "低温",
+        "冰裂缝"
+      ],
+      "province": "青海",
+      "cities": [
+        "海北门源"
+      ],
+      "id": "M070"
+    },
+    {
+      "name": "日月山",
+      "location": "青海 西宁湟源",
+      "region": "西北",
+      "coords": "36.560N 101.130E",
+      "peak_elevation": 3520,
+      "base_elevation": 3200,
+      "terrain_type": "草甸步道，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 300,
+      "spring_summer_base_temp": "3-15℃",
+      "spring_summer_peak_temp": "0-12℃",
+      "autumn_winter_base_temp": "-12-2℃",
+      "autumn_winter_peak_temp": "-15--5℃",
+      "temp_diff": "10-16℃",
+      "precip_probability_pct": 25,
+      "annual_precip_mm": 400,
+      "avg_wind_mps": 7.0,
+      "risks": "高海拔、风大、日晒",
+      "notes": "文成公主进藏地，青藏分界",
+      "latitude": 36.56,
+      "longitude": 101.13,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 3.0,
+        "max": -15.0,
+        "raw": "3-15℃"
+      },
+      "ss_peak": {
+        "min": 0.0,
+        "max": -12.0,
+        "raw": "0-12℃"
+      },
+      "aw_base": {
+        "min": -12.0,
+        "max": -2.0,
+        "raw": "-12-2℃"
+      },
+      "aw_peak": {
+        "min": -15.0,
+        "max": -5.0,
+        "raw": "-15--5℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -16.0,
+        "raw": "10-16℃"
+      },
+      "risk_list": [
+        "高海拔",
+        "风大",
+        "日晒"
+      ],
+      "province": "青海",
+      "cities": [
+        "西宁湟源"
+      ],
+      "id": "M071"
+    },
+    {
+      "name": "贺兰山（敖包疙瘩）",
+      "location": "宁夏银川/内蒙古阿拉善",
+      "region": "西北",
+      "coords": "38.790N 105.940E",
+      "peak_elevation": 3556,
+      "base_elevation": 1500,
+      "terrain_type": "石阶+野路，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 14.0,
+      "round_trip_hours": 7.0,
+      "total_climb_m": 1800,
+      "spring_summer_base_temp": "6-18℃",
+      "spring_summer_peak_temp": "-3-10℃",
+      "autumn_winter_base_temp": "-12-0℃",
+      "autumn_winter_peak_temp": "-18--8℃",
+      "temp_diff": "12-18℃",
+      "precip_probability_pct": 25,
+      "annual_precip_mm": 300,
+      "avg_wind_mps": 9.0,
+      "risks": "高海拔风大、低温、风沙",
+      "notes": "宁夏与内蒙界山，岩画",
+      "latitude": 38.79,
+      "longitude": 105.94,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 6.0,
+        "max": -18.0,
+        "raw": "6-18℃"
+      },
+      "ss_peak": {
+        "min": -3.0,
+        "max": -10.0,
+        "raw": "-3-10℃"
+      },
+      "aw_base": {
+        "min": -12.0,
+        "max": -0.0,
+        "raw": "-12-0℃"
+      },
+      "aw_peak": {
+        "min": -18.0,
+        "max": -8.0,
+        "raw": "-18--8℃"
+      },
+      "temp_diff_range": {
+        "min": 12.0,
+        "max": -18.0,
+        "raw": "12-18℃"
+      },
+      "risk_list": [
+        "高海拔风大",
+        "低温",
+        "风沙"
+      ],
+      "province": "宁夏银川",
+      "cities": [
+        "内蒙古阿拉善"
+      ],
+      "id": "M072"
+    },
+    {
+      "name": "沙坡头腾格里（沙山）",
+      "location": "宁夏 中卫",
+      "region": "西北",
+      "coords": "37.460N 105.040E",
+      "peak_elevation": 1300,
+      "base_elevation": 1200,
+      "terrain_type": "沙漠沙丘，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 5.0,
+      "round_trip_hours": 2.0,
+      "total_climb_m": 100,
+      "spring_summer_base_temp": "10-30℃",
+      "spring_summer_peak_temp": "10-28℃",
+      "autumn_winter_base_temp": "-10-10℃",
+      "autumn_winter_peak_temp": "-12-8℃",
+      "temp_diff": "15-20℃",
+      "precip_probability_pct": 8,
+      "annual_precip_mm": 180,
+      "avg_wind_mps": 8.0,
+      "risks": "沙漠高温、风沙、日晒",
+      "notes": "沙漠越野景观，非传统登山",
+      "latitude": 37.46,
+      "longitude": 105.04,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 10.0,
+        "max": -30.0,
+        "raw": "10-30℃"
+      },
+      "ss_peak": {
+        "min": 10.0,
+        "max": -28.0,
+        "raw": "10-28℃"
+      },
+      "aw_base": {
+        "min": -10.0,
+        "max": -10.0,
+        "raw": "-10-10℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -8.0,
+        "raw": "-12-8℃"
+      },
+      "temp_diff_range": {
+        "min": 15.0,
+        "max": -20.0,
+        "raw": "15-20℃"
+      },
+      "risk_list": [
+        "沙漠高温",
+        "风沙",
+        "日晒"
+      ],
+      "province": "宁夏",
+      "cities": [
+        "中卫"
+      ],
+      "id": "M073"
+    },
+    {
+      "name": "天山天池（东小天池）",
+      "location": "新疆 昌吉阜康",
+      "region": "西北",
+      "coords": "43.880N 88.120E",
+      "peak_elevation": 1980,
+      "base_elevation": 1100,
+      "terrain_type": "盘山公路+步道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "8-20℃",
+      "spring_summer_peak_temp": "3-14℃",
+      "autumn_winter_base_temp": "-10-2℃",
+      "autumn_winter_peak_temp": "-15--6℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 600,
+      "avg_wind_mps": 7.0,
+      "risks": "高海拔、低温、雪季封山",
+      "notes": "天山天池，雪山倒影",
+      "latitude": 43.88,
+      "longitude": 88.12,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "ss_peak": {
+        "min": 3.0,
+        "max": -14.0,
+        "raw": "3-14℃"
+      },
+      "aw_base": {
+        "min": -10.0,
+        "max": -2.0,
+        "raw": "-10-2℃"
+      },
+      "aw_peak": {
+        "min": -15.0,
+        "max": -6.0,
+        "raw": "-15--6℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "高海拔",
+        "低温",
+        "雪季封山"
+      ],
+      "province": "新疆",
+      "cities": [
+        "昌吉阜康"
+      ],
+      "id": "M074"
+    },
+    {
+      "name": "火焰山",
+      "location": "新疆 吐鲁番",
+      "region": "西北",
+      "coords": "42.900N 89.530E",
+      "peak_elevation": 831,
+      "base_elevation": 400,
+      "terrain_type": "戈壁步道，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 5.0,
+      "round_trip_hours": 2.0,
+      "total_climb_m": 200,
+      "spring_summer_base_temp": "20-45℃",
+      "spring_summer_peak_temp": "18-42℃",
+      "autumn_winter_base_temp": "-5-10℃",
+      "autumn_winter_peak_temp": "-8-6℃",
+      "temp_diff": "16-22℃",
+      "precip_probability_pct": 10,
+      "annual_precip_mm": 20,
+      "avg_wind_mps": 7.0,
+      "risks": "极端高温、日晒、风沙",
+      "notes": "西游记传说地，红砂岩",
+      "latitude": 42.9,
+      "longitude": 89.53,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 20.0,
+        "max": -45.0,
+        "raw": "20-45℃"
+      },
+      "ss_peak": {
+        "min": 18.0,
+        "max": -42.0,
+        "raw": "18-42℃"
+      },
+      "aw_base": {
+        "min": -5.0,
+        "max": -10.0,
+        "raw": "-5-10℃"
+      },
+      "aw_peak": {
+        "min": -8.0,
+        "max": -6.0,
+        "raw": "-8-6℃"
+      },
+      "temp_diff_range": {
+        "min": 16.0,
+        "max": -22.0,
+        "raw": "16-22℃"
+      },
+      "risk_list": [
+        "极端高温",
+        "日晒",
+        "风沙"
+      ],
+      "province": "新疆",
+      "cities": [
+        "吐鲁番"
+      ],
+      "id": "M075"
+    },
+    {
+      "name": "喀纳斯观鱼台",
+      "location": "新疆 阿勒泰布尔津",
+      "region": "西北",
+      "coords": "48.770N 87.000E",
+      "peak_elevation": 2030,
+      "base_elevation": 1370,
+      "terrain_type": "盘山步道+栈道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "5-18℃",
+      "spring_summer_peak_temp": "0-12℃",
+      "autumn_winter_base_temp": "-18--5℃",
+      "autumn_winter_peak_temp": "-24--12℃",
+      "temp_diff": "10-16℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 500,
+      "avg_wind_mps": 7.0,
+      "risks": "低温、冬季大雪封山、野生动物",
+      "notes": "喀纳斯湖观景台，秋季最美",
+      "latitude": 48.77,
+      "longitude": 87.0,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 5.0,
+        "max": -18.0,
+        "raw": "5-18℃"
+      },
+      "ss_peak": {
+        "min": 0.0,
+        "max": -12.0,
+        "raw": "0-12℃"
+      },
+      "aw_base": {
+        "min": -18.0,
+        "max": -5.0,
+        "raw": "-18--5℃"
+      },
+      "aw_peak": {
+        "min": -24.0,
+        "max": -12.0,
+        "raw": "-24--12℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -16.0,
+        "raw": "10-16℃"
+      },
+      "risk_list": [
+        "低温",
+        "冬季大雪封山",
+        "野生动物"
+      ],
+      "province": "新疆",
+      "cities": [
+        "阿勒泰布尔津"
+      ],
+      "id": "M076"
+    },
+    {
+      "name": "红山",
+      "location": "新疆 乌鲁木齐",
+      "region": "西北",
+      "coords": "43.810N 87.620E",
+      "peak_elevation": 910,
+      "base_elevation": 800,
+      "terrain_type": "市区步道，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 4.0,
+      "round_trip_hours": 2.0,
+      "total_climb_m": 100,
+      "spring_summer_base_temp": "8-22℃",
+      "spring_summer_peak_temp": "8-21℃",
+      "autumn_winter_base_temp": "-12-0℃",
+      "autumn_winter_peak_temp": "-14--2℃",
+      "temp_diff": "8-13℃",
+      "precip_probability_pct": 20,
+      "annual_precip_mm": 300,
+      "avg_wind_mps": 6.0,
+      "risks": "风大",
+      "notes": "乌鲁木齐地标，红山塔",
+      "latitude": 43.81,
+      "longitude": 87.62,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 8.0,
+        "max": -22.0,
+        "raw": "8-22℃"
+      },
+      "ss_peak": {
+        "min": 8.0,
+        "max": -21.0,
+        "raw": "8-21℃"
+      },
+      "aw_base": {
+        "min": -12.0,
+        "max": -0.0,
+        "raw": "-12-0℃"
+      },
+      "aw_peak": {
+        "min": -14.0,
+        "max": -2.0,
+        "raw": "-14--2℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -13.0,
+        "raw": "8-13℃"
+      },
+      "risk_list": [
+        "风大"
+      ],
+      "province": "新疆",
+      "cities": [
+        "乌鲁木齐"
+      ],
+      "id": "M077"
+    },
+    {
+      "name": "峨眉山（金顶）",
+      "location": "四川 乐山峨眉",
+      "region": "西南",
+      "coords": "29.520N 103.330E",
+      "peak_elevation": 3099,
+      "base_elevation": 550,
+      "terrain_type": "盘山公路+石阶+索道，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 14.0,
+      "round_trip_hours": 7.0,
+      "total_climb_m": 2500,
+      "spring_summer_base_temp": "8-20℃",
+      "spring_summer_peak_temp": "-2-10℃",
+      "autumn_winter_base_temp": "-5-8℃",
+      "autumn_winter_peak_temp": "-12--2℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 55,
+      "annual_precip_mm": 1900,
+      "avg_wind_mps": 7.0,
+      "risks": "高海拔云雾、低温、雨湿",
+      "notes": "佛教名山，金顶日出云海",
+      "latitude": 29.52,
+      "longitude": 103.33,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "ss_peak": {
+        "min": -2.0,
+        "max": -10.0,
+        "raw": "-2-10℃"
+      },
+      "aw_base": {
+        "min": -5.0,
+        "max": -8.0,
+        "raw": "-5-8℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -2.0,
+        "raw": "-12--2℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "高海拔云雾",
+        "低温",
+        "雨湿"
+      ],
+      "province": "四川",
+      "cities": [
+        "乐山峨眉"
+      ],
+      "id": "M078"
+    },
+    {
+      "name": "青城山",
+      "location": "四川 都江堰",
+      "region": "西南",
+      "coords": "30.900N 103.560E",
+      "peak_elevation": 1260,
+      "base_elevation": 650,
+      "terrain_type": "石阶+栈道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "7-18℃",
+      "autumn_winter_base_temp": "0-8℃",
+      "autumn_winter_peak_temp": "-4-3℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 50,
+      "annual_precip_mm": 1200,
+      "avg_wind_mps": 5.0,
+      "risks": "湿滑、多雾",
+      "notes": "道教名山，天下幽",
+      "latitude": 30.9,
+      "longitude": 103.56,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 7.0,
+        "max": -18.0,
+        "raw": "7-18℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -8.0,
+        "raw": "0-8℃"
+      },
+      "aw_peak": {
+        "min": -4.0,
+        "max": -3.0,
+        "raw": "-4-3℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "多雾"
+      ],
+      "province": "四川",
+      "cities": [
+        "都江堰"
+      ],
+      "id": "M079"
+    },
+    {
+      "name": "贡嘎山",
+      "location": "四川 甘孜",
+      "region": "西南",
+      "coords": "29.600N 101.880E",
+      "peak_elevation": 7556,
+      "base_elevation": 3000,
+      "terrain_type": "高海拔冰川，极高",
+      "difficulty": "高难度",
+      "round_trip_km": 20.0,
+      "round_trip_hours": 15.0,
+      "total_climb_m": 3000,
+      "spring_summer_base_temp": "0-10℃",
+      "spring_summer_peak_temp": "-15--5℃",
+      "autumn_winter_base_temp": "-15--2℃",
+      "autumn_winter_peak_temp": "-30--18℃",
+      "temp_diff": "15-20℃",
+      "precip_probability_pct": 50,
+      "annual_precip_mm": 800,
+      "avg_wind_mps": 12.0,
+      "risks": "极高海拔缺氧、冰川、失温、雪崩",
+      "notes": "蜀山之王，专业登山",
+      "latitude": 29.6,
+      "longitude": 101.88,
+      "difficulty_level": 3,
+      "ss_base": {
+        "min": 0.0,
+        "max": -10.0,
+        "raw": "0-10℃"
+      },
+      "ss_peak": {
+        "min": -15.0,
+        "max": -5.0,
+        "raw": "-15--5℃"
+      },
+      "aw_base": {
+        "min": -15.0,
+        "max": -2.0,
+        "raw": "-15--2℃"
+      },
+      "aw_peak": {
+        "min": -30.0,
+        "max": -18.0,
+        "raw": "-30--18℃"
+      },
+      "temp_diff_range": {
+        "min": 15.0,
+        "max": -20.0,
+        "raw": "15-20℃"
+      },
+      "risk_list": [
+        "极高海拔缺氧",
+        "冰川",
+        "失温",
+        "雪崩"
+      ],
+      "province": "四川",
+      "cities": [
+        "甘孜"
+      ],
+      "id": "M080"
+    },
+    {
+      "name": "四姑娘山（大峰）",
+      "location": "四川 阿坝小金",
+      "region": "西南",
+      "coords": "31.100N 102.900E",
+      "peak_elevation": 5025,
+      "base_elevation": 3200,
+      "terrain_type": "高海拔雪线，高",
+      "difficulty": "高难度",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 10.0,
+      "total_climb_m": 1800,
+      "spring_summer_base_temp": "2-14℃",
+      "spring_summer_peak_temp": "-10-0℃",
+      "autumn_winter_base_temp": "-12-0℃",
+      "autumn_winter_peak_temp": "-20--8℃",
+      "temp_diff": "12-18℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 700,
+      "avg_wind_mps": 10.0,
+      "risks": "高海拔缺氧、低温、失温、雪崩",
+      "notes": "幺妹峰，登山训练场（大峰较易）",
+      "latitude": 31.1,
+      "longitude": 102.9,
+      "difficulty_level": 3,
+      "ss_base": {
+        "min": 2.0,
+        "max": -14.0,
+        "raw": "2-14℃"
+      },
+      "ss_peak": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "aw_base": {
+        "min": -12.0,
+        "max": -0.0,
+        "raw": "-12-0℃"
+      },
+      "aw_peak": {
+        "min": -20.0,
+        "max": -8.0,
+        "raw": "-20--8℃"
+      },
+      "temp_diff_range": {
+        "min": 12.0,
+        "max": -18.0,
+        "raw": "12-18℃"
+      },
+      "risk_list": [
+        "高海拔缺氧",
+        "低温",
+        "失温",
+        "雪崩"
+      ],
+      "province": "四川",
+      "cities": [
+        "阿坝小金"
+      ],
+      "id": "M081"
+    },
+    {
+      "name": "西岭雪山",
+      "location": "四川 成都大邑",
+      "region": "西南",
+      "coords": "30.630N 103.280E",
+      "peak_elevation": 5364,
+      "base_elevation": 1260,
+      "terrain_type": "索道+滑雪道+步道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "6-18℃",
+      "spring_summer_peak_temp": "-5-5℃",
+      "autumn_winter_base_temp": "-8-2℃",
+      "autumn_winter_peak_temp": "-15--5℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 50,
+      "annual_precip_mm": 1200,
+      "avg_wind_mps": 8.0,
+      "risks": "高海拔低温、冬季封山",
+      "notes": "窗含西岭千秋雪，阴阳界",
+      "latitude": 30.63,
+      "longitude": 103.28,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 6.0,
+        "max": -18.0,
+        "raw": "6-18℃"
+      },
+      "ss_peak": {
+        "min": -5.0,
+        "max": -5.0,
+        "raw": "-5-5℃"
+      },
+      "aw_base": {
+        "min": -8.0,
+        "max": -2.0,
+        "raw": "-8-2℃"
+      },
+      "aw_peak": {
+        "min": -15.0,
+        "max": -5.0,
+        "raw": "-15--5℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "高海拔低温",
+        "冬季封山"
+      ],
+      "province": "四川",
+      "cities": [
+        "成都大邑"
+      ],
+      "id": "M082"
+    },
+    {
+      "name": "瓦屋山",
+      "location": "四川 眉山洪雅",
+      "region": "西南",
+      "coords": "29.730N 103.180E",
+      "peak_elevation": 2830,
+      "base_elevation": 1100,
+      "terrain_type": "栈道+索道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "6-17℃",
+      "spring_summer_peak_temp": "-3-9℃",
+      "autumn_winter_base_temp": "-6-5℃",
+      "autumn_winter_peak_temp": "-14--4℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 60,
+      "annual_precip_mm": 1500,
+      "avg_wind_mps": 8.0,
+      "risks": "云雾、雨湿、冬季冰雪",
+      "notes": "桌状山，雅女湖",
+      "latitude": 29.73,
+      "longitude": 103.18,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 6.0,
+        "max": -17.0,
+        "raw": "6-17℃"
+      },
+      "ss_peak": {
+        "min": -3.0,
+        "max": -9.0,
+        "raw": "-3-9℃"
+      },
+      "aw_base": {
+        "min": -6.0,
+        "max": -5.0,
+        "raw": "-6-5℃"
+      },
+      "aw_peak": {
+        "min": -14.0,
+        "max": -4.0,
+        "raw": "-14--4℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "云雾",
+        "雨湿",
+        "冬季冰雪"
+      ],
+      "province": "四川",
+      "cities": [
+        "眉山洪雅"
+      ],
+      "id": "M083"
+    },
+    {
+      "name": "泸山",
+      "location": "四川 凉山西昌",
+      "region": "西南",
+      "coords": "27.860N 102.280E",
+      "peak_elevation": 2317,
+      "base_elevation": 1500,
+      "terrain_type": "石阶+步道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "4-15℃",
+      "autumn_winter_base_temp": "0-10℃",
+      "autumn_winter_peak_temp": "-6-2℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1000,
+      "avg_wind_mps": 6.0,
+      "risks": "日晒强、风大",
+      "notes": "邛海泸山，彝族文化",
+      "latitude": 27.86,
+      "longitude": 102.28,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 4.0,
+        "max": -15.0,
+        "raw": "4-15℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -10.0,
+        "raw": "0-10℃"
+      },
+      "aw_peak": {
+        "min": -6.0,
+        "max": -2.0,
+        "raw": "-6-2℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "日晒强",
+        "风大"
+      ],
+      "province": "四川",
+      "cities": [
+        "凉山西昌"
+      ],
+      "id": "M084"
+    },
+    {
+      "name": "玉龙雪山（云杉坪）",
+      "location": "云南 丽江",
+      "region": "西南",
+      "coords": "27.100N 100.180E",
+      "peak_elevation": 5596,
+      "base_elevation": 2400,
+      "terrain_type": "索道+步道，高",
+      "difficulty": "进阶",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "8-18℃",
+      "spring_summer_peak_temp": "-5-8℃",
+      "autumn_winter_base_temp": "0-8℃",
+      "autumn_winter_peak_temp": "-12--2℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 55,
+      "annual_precip_mm": 900,
+      "avg_wind_mps": 8.0,
+      "risks": "高海拔缺氧、低温、雪季",
+      "notes": "丽江地标，纳西神山",
+      "latitude": 27.1,
+      "longitude": 100.18,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -18.0,
+        "raw": "8-18℃"
+      },
+      "ss_peak": {
+        "min": -5.0,
+        "max": -8.0,
+        "raw": "-5-8℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -8.0,
+        "raw": "0-8℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -2.0,
+        "raw": "-12--2℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "高海拔缺氧",
+        "低温",
+        "雪季"
+      ],
+      "province": "云南",
+      "cities": [
+        "丽江"
+      ],
+      "id": "M085"
+    },
+    {
+      "name": "苍山（洗马潭）",
+      "location": "云南 大理",
+      "region": "西南",
+      "coords": "25.650N 100.100E",
+      "peak_elevation": 4122,
+      "base_elevation": 2000,
+      "terrain_type": "索道+石阶，高",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 2000,
+      "spring_summer_base_temp": "6-16℃",
+      "spring_summer_peak_temp": "-5-5℃",
+      "autumn_winter_base_temp": "-2-8℃",
+      "autumn_winter_peak_temp": "-10-0℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 50,
+      "annual_precip_mm": 1000,
+      "avg_wind_mps": 9.0,
+      "risks": "高海拔缺氧、风大、云雾",
+      "notes": "苍山雪洱海月，玉带路",
+      "latitude": 25.65,
+      "longitude": 100.1,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 6.0,
+        "max": -16.0,
+        "raw": "6-16℃"
+      },
+      "ss_peak": {
+        "min": -5.0,
+        "max": -5.0,
+        "raw": "-5-5℃"
+      },
+      "aw_base": {
+        "min": -2.0,
+        "max": -8.0,
+        "raw": "-2-8℃"
+      },
+      "aw_peak": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "高海拔缺氧",
+        "风大",
+        "云雾"
+      ],
+      "province": "云南",
+      "cities": [
+        "大理"
+      ],
+      "id": "M086"
+    },
+    {
+      "name": "梅里雪山（观景/转山）",
+      "location": "云南 迪庆德钦",
+      "region": "西南",
+      "coords": "28.440N 98.680E",
+      "peak_elevation": 6740,
+      "base_elevation": 3200,
+      "terrain_type": "高海拔徒步转山，极高",
+      "difficulty": "高难度",
+      "round_trip_km": 20.0,
+      "round_trip_hours": 16.0,
+      "total_climb_m": 2500,
+      "spring_summer_base_temp": "2-12℃",
+      "spring_summer_peak_temp": "-10-0℃",
+      "autumn_winter_base_temp": "-10-0℃",
+      "autumn_winter_peak_temp": "-18--6℃",
+      "temp_diff": "12-18℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 700,
+      "avg_wind_mps": 11.0,
+      "risks": "极高海拔、低温、雪崩、尊重宗教",
+      "notes": "卡瓦格博，禁止攀登，观景为主",
+      "latitude": 28.44,
+      "longitude": 98.68,
+      "difficulty_level": 3,
+      "ss_base": {
+        "min": 2.0,
+        "max": -12.0,
+        "raw": "2-12℃"
+      },
+      "ss_peak": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "aw_base": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "aw_peak": {
+        "min": -18.0,
+        "max": -6.0,
+        "raw": "-18--6℃"
+      },
+      "temp_diff_range": {
+        "min": 12.0,
+        "max": -18.0,
+        "raw": "12-18℃"
+      },
+      "risk_list": [
+        "极高海拔",
+        "低温",
+        "雪崩",
+        "尊重宗教"
+      ],
+      "province": "云南",
+      "cities": [
+        "迪庆德钦"
+      ],
+      "id": "M087"
+    },
+    {
+      "name": "轿子雪山",
+      "location": "云南 昆明禄劝",
+      "region": "西南",
+      "coords": "26.100N 102.780E",
+      "peak_elevation": 4223,
+      "base_elevation": 2000,
+      "terrain_type": "索道+步道，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1200,
+      "spring_summer_base_temp": "5-15℃",
+      "spring_summer_peak_temp": "-5-6℃",
+      "autumn_winter_base_temp": "-4-6℃",
+      "autumn_winter_peak_temp": "-12--2℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 50,
+      "annual_precip_mm": 900,
+      "avg_wind_mps": 8.0,
+      "risks": "高海拔缺氧、低温、雪季",
+      "notes": "滇中第一高峰，轿顶",
+      "latitude": 26.1,
+      "longitude": 102.78,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 5.0,
+        "max": -15.0,
+        "raw": "5-15℃"
+      },
+      "ss_peak": {
+        "min": -5.0,
+        "max": -6.0,
+        "raw": "-5-6℃"
+      },
+      "aw_base": {
+        "min": -4.0,
+        "max": -6.0,
+        "raw": "-4-6℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -2.0,
+        "raw": "-12--2℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "高海拔缺氧",
+        "低温",
+        "雪季"
+      ],
+      "province": "云南",
+      "cities": [
+        "昆明禄劝"
+      ],
+      "id": "M088"
+    },
+    {
+      "name": "哀牢山",
+      "location": "云南 玉溪新平",
+      "region": "西南",
+      "coords": "24.100N 101.400E",
+      "peak_elevation": 3166,
+      "base_elevation": 1600,
+      "terrain_type": "野路+步道，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 1200,
+      "spring_summer_base_temp": "8-18℃",
+      "spring_summer_peak_temp": "0-10℃",
+      "autumn_winter_base_temp": "2-10℃",
+      "autumn_winter_peak_temp": "-6-3℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 55,
+      "annual_precip_mm": 1500,
+      "avg_wind_mps": 5.0,
+      "risks": "云雾、湿滑、野生动物",
+      "notes": "云南中部山脉，原始森林",
+      "latitude": 24.1,
+      "longitude": 101.4,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -18.0,
+        "raw": "8-18℃"
+      },
+      "ss_peak": {
+        "min": 0.0,
+        "max": -10.0,
+        "raw": "0-10℃"
+      },
+      "aw_base": {
+        "min": 2.0,
+        "max": -10.0,
+        "raw": "2-10℃"
+      },
+      "aw_peak": {
+        "min": -6.0,
+        "max": -3.0,
+        "raw": "-6-3℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "云雾",
+        "湿滑",
+        "野生动物"
+      ],
+      "province": "云南",
+      "cities": [
+        "玉溪新平"
+      ],
+      "id": "M089"
+    },
+    {
+      "name": "鸡足山",
+      "location": "云南 大理宾川",
+      "region": "西南",
+      "coords": "25.850N 100.650E",
+      "peak_elevation": 3240,
+      "base_elevation": 1800,
+      "terrain_type": "石阶+公路，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1300,
+      "spring_summer_base_temp": "6-16℃",
+      "spring_summer_peak_temp": "-1-10℃",
+      "autumn_winter_base_temp": "-1-9℃",
+      "autumn_winter_peak_temp": "-10-0℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 45,
+      "annual_precip_mm": 900,
+      "avg_wind_mps": 7.0,
+      "risks": "高海拔、风大、云雾",
+      "notes": "佛教名山，金顶寺",
+      "latitude": 25.85,
+      "longitude": 100.65,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 6.0,
+        "max": -16.0,
+        "raw": "6-16℃"
+      },
+      "ss_peak": {
+        "min": -1.0,
+        "max": -10.0,
+        "raw": "-1-10℃"
+      },
+      "aw_base": {
+        "min": -1.0,
+        "max": -9.0,
+        "raw": "-1-9℃"
+      },
+      "aw_peak": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "高海拔",
+        "风大",
+        "云雾"
+      ],
+      "province": "云南",
+      "cities": [
+        "大理宾川"
+      ],
+      "id": "M090"
+    },
+    {
+      "name": "梵净山（红云金顶）",
+      "location": "贵州 铜仁",
+      "region": "西南",
+      "coords": "27.930N 108.640E",
+      "peak_elevation": 2572,
+      "base_elevation": 1200,
+      "terrain_type": "石阶+栈道，高陡",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 7.0,
+      "total_climb_m": 1300,
+      "spring_summer_base_temp": "8-19℃",
+      "spring_summer_peak_temp": "0-11℃",
+      "autumn_winter_base_temp": "-1-8℃",
+      "autumn_winter_peak_temp": "-10-0℃",
+      "temp_diff": "10-14℃",
+      "precip_probability_pct": 55,
+      "annual_precip_mm": 1600,
+      "avg_wind_mps": 7.0,
+      "risks": "高海拔湿滑、云雾、冬冰凌",
+      "notes": "贵州最高峰，蘑菇石",
+      "latitude": 27.93,
+      "longitude": 108.64,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -19.0,
+        "raw": "8-19℃"
+      },
+      "ss_peak": {
+        "min": 0.0,
+        "max": -11.0,
+        "raw": "0-11℃"
+      },
+      "aw_base": {
+        "min": -1.0,
+        "max": -8.0,
+        "raw": "-1-8℃"
+      },
+      "aw_peak": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -14.0,
+        "raw": "10-14℃"
+      },
+      "risk_list": [
+        "高海拔湿滑",
+        "云雾",
+        "冬冰凌"
+      ],
+      "province": "贵州",
+      "cities": [
+        "铜仁"
+      ],
+      "id": "M091"
+    },
+    {
+      "name": "雷公山",
+      "location": "贵州 黔东南雷山",
+      "region": "西南",
+      "coords": "26.300N 108.100E",
+      "peak_elevation": 2178,
+      "base_elevation": 900,
+      "terrain_type": "野路+步道，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1100,
+      "spring_summer_base_temp": "8-19℃",
+      "spring_summer_peak_temp": "2-12℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-7-2℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 55,
+      "annual_precip_mm": 1400,
+      "avg_wind_mps": 5.0,
+      "risks": "云雾、湿滑、多雨",
+      "notes": "黔东南苗岭主峰",
+      "latitude": 26.3,
+      "longitude": 108.1,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -19.0,
+        "raw": "8-19℃"
+      },
+      "ss_peak": {
+        "min": 2.0,
+        "max": -12.0,
+        "raw": "2-12℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -7.0,
+        "max": -2.0,
+        "raw": "-7-2℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "云雾",
+        "湿滑",
+        "多雨"
+      ],
+      "province": "贵州",
+      "cities": [
+        "黔东南雷山"
+      ],
+      "id": "M092"
+    },
+    {
+      "name": "缙云山",
+      "location": "重庆 北碚",
+      "region": "西南",
+      "coords": "29.840N 106.400E",
+      "peak_elevation": 951,
+      "base_elevation": 200,
+      "terrain_type": "石阶+步道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 700,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "8-20℃",
+      "autumn_winter_base_temp": "3-11℃",
+      "autumn_winter_peak_temp": "0-8℃",
+      "temp_diff": "6-9℃",
+      "precip_probability_pct": 45,
+      "annual_precip_mm": 1100,
+      "avg_wind_mps": 4.0,
+      "risks": "云雾、湿滑、夏季闷热",
+      "notes": "重庆主城，狮子峰",
+      "latitude": 29.84,
+      "longitude": 106.4,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "aw_base": {
+        "min": 3.0,
+        "max": -11.0,
+        "raw": "3-11℃"
+      },
+      "aw_peak": {
+        "min": 0.0,
+        "max": -8.0,
+        "raw": "0-8℃"
+      },
+      "temp_diff_range": {
+        "min": 6.0,
+        "max": -9.0,
+        "raw": "6-9℃"
+      },
+      "risk_list": [
+        "云雾",
+        "湿滑",
+        "夏季闷热"
+      ],
+      "province": "重庆",
+      "cities": [
+        "北碚"
+      ],
+      "id": "M093"
+    },
+    {
+      "name": "仙女山",
+      "location": "重庆 武隆",
+      "region": "西南",
+      "coords": "29.500N 107.750E",
+      "peak_elevation": 2033,
+      "base_elevation": 1100,
+      "terrain_type": "盘山公路+草甸步道，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "8-18℃",
+      "spring_summer_peak_temp": "2-12℃",
+      "autumn_winter_base_temp": "-2-8℃",
+      "autumn_winter_peak_temp": "-9-0℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 45,
+      "annual_precip_mm": 1200,
+      "avg_wind_mps": 6.0,
+      "risks": "冬季冰雪、高海拔风大",
+      "notes": "南国草原，滑雪场",
+      "latitude": 29.5,
+      "longitude": 107.75,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 8.0,
+        "max": -18.0,
+        "raw": "8-18℃"
+      },
+      "ss_peak": {
+        "min": 2.0,
+        "max": -12.0,
+        "raw": "2-12℃"
+      },
+      "aw_base": {
+        "min": -2.0,
+        "max": -8.0,
+        "raw": "-2-8℃"
+      },
+      "aw_peak": {
+        "min": -9.0,
+        "max": -0.0,
+        "raw": "-9-0℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "冬季冰雪",
+        "高海拔风大"
+      ],
+      "province": "重庆",
+      "cities": [
+        "武隆"
+      ],
+      "id": "M094"
+    },
+    {
+      "name": "金佛山",
+      "location": "重庆 南川",
+      "region": "西南",
+      "coords": "29.050N 107.170E",
+      "peak_elevation": 2238,
+      "base_elevation": 700,
+      "terrain_type": "石阶+索道，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1200,
+      "spring_summer_base_temp": "8-19℃",
+      "spring_summer_peak_temp": "1-11℃",
+      "autumn_winter_base_temp": "-1-8℃",
+      "autumn_winter_peak_temp": "-10-0℃",
+      "temp_diff": "10-14℃",
+      "precip_probability_pct": 55,
+      "annual_precip_mm": 1300,
+      "avg_wind_mps": 7.0,
+      "risks": "云雾、湿滑、冬季冰凌",
+      "notes": "重庆最高峰之一，喀斯特",
+      "latitude": 29.05,
+      "longitude": 107.17,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -19.0,
+        "raw": "8-19℃"
+      },
+      "ss_peak": {
+        "min": 1.0,
+        "max": -11.0,
+        "raw": "1-11℃"
+      },
+      "aw_base": {
+        "min": -1.0,
+        "max": -8.0,
+        "raw": "-1-8℃"
+      },
+      "aw_peak": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -14.0,
+        "raw": "10-14℃"
+      },
+      "risk_list": [
+        "云雾",
+        "湿滑",
+        "冬季冰凌"
+      ],
+      "province": "重庆",
+      "cities": [
+        "南川"
+      ],
+      "id": "M095"
+    },
+    {
+      "name": "四面山",
+      "location": "重庆 江津",
+      "region": "西南",
+      "coords": "28.700N 106.350E",
+      "peak_elevation": 1709,
+      "base_elevation": 500,
+      "terrain_type": "石阶+野路，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 1100,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "4-15℃",
+      "autumn_winter_base_temp": "0-9℃",
+      "autumn_winter_peak_temp": "-5-2℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 55,
+      "annual_precip_mm": 1300,
+      "avg_wind_mps": 5.0,
+      "risks": "云雾、湿滑、多雨",
+      "notes": "丹霞+原始森林，望乡台瀑布",
+      "latitude": 28.7,
+      "longitude": 106.35,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 4.0,
+        "max": -15.0,
+        "raw": "4-15℃"
+      },
+      "aw_base": {
+        "min": 0.0,
+        "max": -9.0,
+        "raw": "0-9℃"
+      },
+      "aw_peak": {
+        "min": -5.0,
+        "max": -2.0,
+        "raw": "-5-2℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "云雾",
+        "湿滑",
+        "多雨"
+      ],
+      "province": "重庆",
+      "cities": [
+        "江津"
+      ],
+      "id": "M096"
+    },
+    {
+      "name": "药王山（拉萨观景）",
+      "location": "西藏 拉萨",
+      "region": "西南",
+      "coords": "29.660N 91.120E",
+      "peak_elevation": 3700,
+      "base_elevation": 3650,
+      "terrain_type": "市区台阶，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 3.0,
+      "round_trip_hours": 1.0,
+      "total_climb_m": 50,
+      "spring_summer_base_temp": "5-15℃",
+      "spring_summer_peak_temp": "3-13℃",
+      "autumn_winter_base_temp": "-5-5℃",
+      "autumn_winter_peak_temp": "-8-2℃",
+      "temp_diff": "12-18℃",
+      "precip_probability_pct": 25,
+      "annual_precip_mm": 400,
+      "avg_wind_mps": 8.0,
+      "risks": "高海拔缺氧、日晒强",
+      "notes": "布达拉宫观景台，非传统登山",
+      "latitude": 29.66,
+      "longitude": 91.12,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 5.0,
+        "max": -15.0,
+        "raw": "5-15℃"
+      },
+      "ss_peak": {
+        "min": 3.0,
+        "max": -13.0,
+        "raw": "3-13℃"
+      },
+      "aw_base": {
+        "min": -5.0,
+        "max": -5.0,
+        "raw": "-5-5℃"
+      },
+      "aw_peak": {
+        "min": -8.0,
+        "max": -2.0,
+        "raw": "-8-2℃"
+      },
+      "temp_diff_range": {
+        "min": 12.0,
+        "max": -18.0,
+        "raw": "12-18℃"
+      },
+      "risk_list": [
+        "高海拔缺氧",
+        "日晒强"
+      ],
+      "province": "西藏",
+      "cities": [
+        "拉萨"
+      ],
+      "id": "M097"
+    },
+    {
+      "name": "千山（仙人台）",
+      "location": "辽宁 鞍山",
+      "region": "东北",
+      "coords": "41.010N 123.040E",
+      "peak_elevation": 708,
+      "base_elevation": 50,
+      "terrain_type": "石阶+岩壁栈道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 600,
+      "spring_summer_base_temp": "10-22℃",
+      "spring_summer_peak_temp": "8-19℃",
+      "autumn_winter_base_temp": "-6-4℃",
+      "autumn_winter_peak_temp": "-10-0℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 700,
+      "avg_wind_mps": 4.0,
+      "risks": "湿滑、冬雪、岩壁注意",
+      "notes": "辽东第一山，无量观",
+      "latitude": 41.01,
+      "longitude": 123.04,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 10.0,
+        "max": -22.0,
+        "raw": "10-22℃"
+      },
+      "ss_peak": {
+        "min": 8.0,
+        "max": -19.0,
+        "raw": "8-19℃"
+      },
+      "aw_base": {
+        "min": -6.0,
+        "max": -4.0,
+        "raw": "-6-4℃"
+      },
+      "aw_peak": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "冬雪",
+        "岩壁注意"
+      ],
+      "province": "辽宁",
+      "cities": [
+        "鞍山"
+      ],
+      "id": "M098"
+    },
+    {
+      "name": "凤凰山（丹东）",
+      "location": "辽宁 丹东凤城",
+      "region": "东北",
+      "coords": "40.410N 124.100E",
+      "peak_elevation": 836,
+      "base_elevation": 100,
+      "terrain_type": "石阶+玻璃栈道，中陡",
+      "difficulty": "进阶",
+      "round_trip_km": 10.0,
+      "round_trip_hours": 5.0,
+      "total_climb_m": 700,
+      "spring_summer_base_temp": "9-21℃",
+      "spring_summer_peak_temp": "6-17℃",
+      "autumn_winter_base_temp": "-8-2℃",
+      "autumn_winter_peak_temp": "-12--2℃",
+      "temp_diff": "7-11℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 750,
+      "avg_wind_mps": 5.0,
+      "risks": "湿滑、栈道风大、冬雪",
+      "notes": "辽东半岛，凤凰山",
+      "latitude": 40.41,
+      "longitude": 124.1,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 9.0,
+        "max": -21.0,
+        "raw": "9-21℃"
+      },
+      "ss_peak": {
+        "min": 6.0,
+        "max": -17.0,
+        "raw": "6-17℃"
+      },
+      "aw_base": {
+        "min": -8.0,
+        "max": -2.0,
+        "raw": "-8-2℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -2.0,
+        "raw": "-12--2℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -11.0,
+        "raw": "7-11℃"
+      },
+      "risk_list": [
+        "湿滑",
+        "栈道风大",
+        "冬雪"
+      ],
+      "province": "辽宁",
+      "cities": [
+        "丹东凤城"
+      ],
+      "id": "M099"
+    },
+    {
+      "name": "医巫闾山",
+      "location": "辽宁 锦州北镇",
+      "region": "东北",
+      "coords": "41.580N 121.730E",
+      "peak_elevation": 866,
+      "base_elevation": 60,
+      "terrain_type": "石阶+步道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 500,
+      "spring_summer_base_temp": "9-21℃",
+      "spring_summer_peak_temp": "7-18℃",
+      "autumn_winter_base_temp": "-7-3℃",
+      "autumn_winter_peak_temp": "-11--1℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 600,
+      "avg_wind_mps": 4.0,
+      "risks": "冬雪、湿滑",
+      "notes": "东北名山，闾山",
+      "latitude": 41.58,
+      "longitude": 121.73,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 9.0,
+        "max": -21.0,
+        "raw": "9-21℃"
+      },
+      "ss_peak": {
+        "min": 7.0,
+        "max": -18.0,
+        "raw": "7-18℃"
+      },
+      "aw_base": {
+        "min": -7.0,
+        "max": -3.0,
+        "raw": "-7-3℃"
+      },
+      "aw_peak": {
+        "min": -11.0,
+        "max": -1.0,
+        "raw": "-11--1℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "冬雪",
+        "湿滑"
+      ],
+      "province": "辽宁",
+      "cities": [
+        "锦州北镇"
+      ],
+      "id": "M100"
+    },
+    {
+      "name": "老秃顶子",
+      "location": "辽宁 本溪桓仁",
+      "region": "东北",
+      "coords": "41.350N 125.400E",
+      "peak_elevation": 1367,
+      "base_elevation": 400,
+      "terrain_type": "野路+林道，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "8-20℃",
+      "spring_summer_peak_temp": "3-13℃",
+      "autumn_winter_base_temp": "-10-0℃",
+      "autumn_winter_peak_temp": "-16--6℃",
+      "temp_diff": "9-13℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 750,
+      "avg_wind_mps": 5.0,
+      "risks": "低温、雪季、路况差",
+      "notes": "辽宁最高峰之一，高山湿地",
+      "latitude": 41.35,
+      "longitude": 125.4,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "ss_peak": {
+        "min": 3.0,
+        "max": -13.0,
+        "raw": "3-13℃"
+      },
+      "aw_base": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "aw_peak": {
+        "min": -16.0,
+        "max": -6.0,
+        "raw": "-16--6℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -13.0,
+        "raw": "9-13℃"
+      },
+      "risk_list": [
+        "低温",
+        "雪季",
+        "路况差"
+      ],
+      "province": "辽宁",
+      "cities": [
+        "本溪桓仁"
+      ],
+      "id": "M101"
+    },
+    {
+      "name": "铁刹山",
+      "location": "辽宁 本溪",
+      "region": "东北",
+      "coords": "41.200N 124.500E",
+      "peak_elevation": 712,
+      "base_elevation": 150,
+      "terrain_type": "石阶，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 4.0,
+      "total_climb_m": 500,
+      "spring_summer_base_temp": "9-21℃",
+      "spring_summer_peak_temp": "7-18℃",
+      "autumn_winter_base_temp": "-8-2℃",
+      "autumn_winter_peak_temp": "-12--2℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 700,
+      "avg_wind_mps": 4.0,
+      "risks": "冬雪、湿滑",
+      "notes": "东北道教名山",
+      "latitude": 41.2,
+      "longitude": 124.5,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 9.0,
+        "max": -21.0,
+        "raw": "9-21℃"
+      },
+      "ss_peak": {
+        "min": 7.0,
+        "max": -18.0,
+        "raw": "7-18℃"
+      },
+      "aw_base": {
+        "min": -8.0,
+        "max": -2.0,
+        "raw": "-8-2℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -2.0,
+        "raw": "-12--2℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "冬雪",
+        "湿滑"
+      ],
+      "province": "辽宁",
+      "cities": [
+        "本溪"
+      ],
+      "id": "M102"
+    },
+    {
+      "name": "长白山（天池/白云峰）",
+      "location": "吉林 延边安图",
+      "region": "东北",
+      "coords": "42.010N 128.070E",
+      "peak_elevation": 2691,
+      "base_elevation": 1700,
+      "terrain_type": "盘山公路+石阶+索道，高",
+      "difficulty": "高难度",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 900,
+      "spring_summer_base_temp": "2-12℃",
+      "spring_summer_peak_temp": "-8-2℃",
+      "autumn_winter_base_temp": "-15--3℃",
+      "autumn_winter_peak_temp": "-24--12℃",
+      "temp_diff": "10-16℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1300,
+      "avg_wind_mps": 10.0,
+      "risks": "高海拔低温、风大、雪季封山、火山警示",
+      "notes": "东北最高峰，天池火山口",
+      "latitude": 42.01,
+      "longitude": 128.07,
+      "difficulty_level": 3,
+      "ss_base": {
+        "min": 2.0,
+        "max": -12.0,
+        "raw": "2-12℃"
+      },
+      "ss_peak": {
+        "min": -8.0,
+        "max": -2.0,
+        "raw": "-8-2℃"
+      },
+      "aw_base": {
+        "min": -15.0,
+        "max": -3.0,
+        "raw": "-15--3℃"
+      },
+      "aw_peak": {
+        "min": -24.0,
+        "max": -12.0,
+        "raw": "-24--12℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -16.0,
+        "raw": "10-16℃"
+      },
+      "risk_list": [
+        "高海拔低温",
+        "风大",
+        "雪季封山",
+        "火山警示"
+      ],
+      "province": "吉林",
+      "cities": [
+        "延边安图"
+      ],
+      "id": "M103"
+    },
+    {
+      "name": "老白山（雪岭）",
+      "location": "吉林 延边",
+      "region": "东北",
+      "coords": "42.500N 128.000E",
+      "peak_elevation": 2067,
+      "base_elevation": 1200,
+      "terrain_type": "野路+草甸，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "2-12℃",
+      "spring_summer_peak_temp": "-6-4℃",
+      "autumn_winter_base_temp": "-12-0℃",
+      "autumn_winter_peak_temp": "-20--8℃",
+      "temp_diff": "10-14℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 1100,
+      "avg_wind_mps": 8.0,
+      "risks": "低温、雪季、路况差",
+      "notes": "长白山脉，边境林海",
+      "latitude": 42.5,
+      "longitude": 128.0,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 2.0,
+        "max": -12.0,
+        "raw": "2-12℃"
+      },
+      "ss_peak": {
+        "min": -6.0,
+        "max": -4.0,
+        "raw": "-6-4℃"
+      },
+      "aw_base": {
+        "min": -12.0,
+        "max": -0.0,
+        "raw": "-12-0℃"
+      },
+      "aw_peak": {
+        "min": -20.0,
+        "max": -8.0,
+        "raw": "-20--8℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -14.0,
+        "raw": "10-14℃"
+      },
+      "risk_list": [
+        "低温",
+        "雪季",
+        "路况差"
+      ],
+      "province": "吉林",
+      "cities": [
+        "延边"
+      ],
+      "id": "M104"
+    },
+    {
+      "name": "龙潭山",
+      "location": "吉林 吉林",
+      "region": "东北",
+      "coords": "43.880N 126.600E",
+      "peak_elevation": 389,
+      "base_elevation": 200,
+      "terrain_type": "市区步道+台阶，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 5.0,
+      "round_trip_hours": 2.0,
+      "total_climb_m": 200,
+      "spring_summer_base_temp": "9-21℃",
+      "spring_summer_peak_temp": "8-20℃",
+      "autumn_winter_base_temp": "-10-0℃",
+      "autumn_winter_peak_temp": "-12--2℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 650,
+      "avg_wind_mps": 4.0,
+      "risks": "冬雪、湿滑",
+      "notes": "吉林市郊，龙潭印月",
+      "latitude": 43.88,
+      "longitude": 126.6,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 9.0,
+        "max": -21.0,
+        "raw": "9-21℃"
+      },
+      "ss_peak": {
+        "min": 8.0,
+        "max": -20.0,
+        "raw": "8-20℃"
+      },
+      "aw_base": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -2.0,
+        "raw": "-12--2℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "冬雪",
+        "湿滑"
+      ],
+      "province": "吉林",
+      "cities": [
+        "吉林"
+      ],
+      "id": "M105"
+    },
+    {
+      "name": "净月潭（山丘步道）",
+      "location": "吉林 长春",
+      "region": "东北",
+      "coords": "43.780N 125.420E",
+      "peak_elevation": 380,
+      "base_elevation": 230,
+      "terrain_type": "步道+林道，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 8.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 200,
+      "spring_summer_base_temp": "9-21℃",
+      "spring_summer_peak_temp": "8-19℃",
+      "autumn_winter_base_temp": "-10-0℃",
+      "autumn_winter_peak_temp": "-12--2℃",
+      "temp_diff": "7-10℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 600,
+      "avg_wind_mps": 4.0,
+      "risks": "冬雪",
+      "notes": "长春后花园，越野滑雪",
+      "latitude": 43.78,
+      "longitude": 125.42,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 9.0,
+        "max": -21.0,
+        "raw": "9-21℃"
+      },
+      "ss_peak": {
+        "min": 8.0,
+        "max": -19.0,
+        "raw": "8-19℃"
+      },
+      "aw_base": {
+        "min": -10.0,
+        "max": -0.0,
+        "raw": "-10-0℃"
+      },
+      "aw_peak": {
+        "min": -12.0,
+        "max": -2.0,
+        "raw": "-12--2℃"
+      },
+      "temp_diff_range": {
+        "min": 7.0,
+        "max": -10.0,
+        "raw": "7-10℃"
+      },
+      "risk_list": [
+        "冬雪"
+      ],
+      "province": "吉林",
+      "cities": [
+        "长春"
+      ],
+      "id": "M106"
+    },
+    {
+      "name": "老黑山（五大连池）",
+      "location": "黑龙江 黑河",
+      "region": "东北",
+      "coords": "48.720N 126.140E",
+      "peak_elevation": 515,
+      "base_elevation": 270,
+      "terrain_type": "火山石阶，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 200,
+      "spring_summer_base_temp": "7-18℃",
+      "spring_summer_peak_temp": "5-15℃",
+      "autumn_winter_base_temp": "-18--4℃",
+      "autumn_winter_peak_temp": "-22--8℃",
+      "temp_diff": "9-14℃",
+      "precip_probability_pct": 35,
+      "annual_precip_mm": 600,
+      "avg_wind_mps": 5.0,
+      "risks": "火山熔岩行走、低温",
+      "notes": "五大连池火山群，新期火山",
+      "latitude": 48.72,
+      "longitude": 126.14,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 7.0,
+        "max": -18.0,
+        "raw": "7-18℃"
+      },
+      "ss_peak": {
+        "min": 5.0,
+        "max": -15.0,
+        "raw": "5-15℃"
+      },
+      "aw_base": {
+        "min": -18.0,
+        "max": -4.0,
+        "raw": "-18--4℃"
+      },
+      "aw_peak": {
+        "min": -22.0,
+        "max": -8.0,
+        "raw": "-22--8℃"
+      },
+      "temp_diff_range": {
+        "min": 9.0,
+        "max": -14.0,
+        "raw": "9-14℃"
+      },
+      "risk_list": [
+        "火山熔岩行走",
+        "低温"
+      ],
+      "province": "黑龙江",
+      "cities": [
+        "黑河"
+      ],
+      "id": "M107"
+    },
+    {
+      "name": "凤凰山（黑龙江）",
+      "location": "黑龙江 五常/尚志",
+      "region": "东北",
+      "coords": "44.900N 127.900E",
+      "peak_elevation": 1696,
+      "base_elevation": 900,
+      "terrain_type": "石阶+野路，中缓",
+      "difficulty": "进阶",
+      "round_trip_km": 12.0,
+      "round_trip_hours": 6.0,
+      "total_climb_m": 800,
+      "spring_summer_base_temp": "4-15℃",
+      "spring_summer_peak_temp": "0-10℃",
+      "autumn_winter_base_temp": "-18--5℃",
+      "autumn_winter_peak_temp": "-22--8℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 700,
+      "avg_wind_mps": 7.0,
+      "risks": "低温、雪季、高山湿地",
+      "notes": "龙江第一高峰，空中花园",
+      "latitude": 44.9,
+      "longitude": 127.9,
+      "difficulty_level": 2,
+      "ss_base": {
+        "min": 4.0,
+        "max": -15.0,
+        "raw": "4-15℃"
+      },
+      "ss_peak": {
+        "min": 0.0,
+        "max": -10.0,
+        "raw": "0-10℃"
+      },
+      "aw_base": {
+        "min": -18.0,
+        "max": -5.0,
+        "raw": "-18--5℃"
+      },
+      "aw_peak": {
+        "min": -22.0,
+        "max": -8.0,
+        "raw": "-22--8℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "低温",
+        "雪季",
+        "高山湿地"
+      ],
+      "province": "黑龙江",
+      "cities": [
+        "五常",
+        "尚志"
+      ],
+      "id": "M108"
+    },
+    {
+      "name": "帽儿山",
+      "location": "黑龙江 尚志",
+      "region": "东北",
+      "coords": "45.170N 127.500E",
+      "peak_elevation": 805,
+      "base_elevation": 300,
+      "terrain_type": "石阶+步道，中缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 400,
+      "spring_summer_base_temp": "6-17℃",
+      "spring_summer_peak_temp": "4-14℃",
+      "autumn_winter_base_temp": "-15--2℃",
+      "autumn_winter_peak_temp": "-18--5℃",
+      "temp_diff": "8-12℃",
+      "precip_probability_pct": 30,
+      "annual_precip_mm": 650,
+      "avg_wind_mps": 4.0,
+      "risks": "冬雪、湿滑",
+      "notes": "哈尔滨近郊，徒步热门",
+      "latitude": 45.17,
+      "longitude": 127.5,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 6.0,
+        "max": -17.0,
+        "raw": "6-17℃"
+      },
+      "ss_peak": {
+        "min": 4.0,
+        "max": -14.0,
+        "raw": "4-14℃"
+      },
+      "aw_base": {
+        "min": -15.0,
+        "max": -2.0,
+        "raw": "-15--2℃"
+      },
+      "aw_peak": {
+        "min": -18.0,
+        "max": -5.0,
+        "raw": "-18--5℃"
+      },
+      "temp_diff_range": {
+        "min": 8.0,
+        "max": -12.0,
+        "raw": "8-12℃"
+      },
+      "risk_list": [
+        "冬雪",
+        "湿滑"
+      ],
+      "province": "黑龙江",
+      "cities": [
+        "尚志"
+      ],
+      "id": "M109"
+    },
+    {
+      "name": "阿尔山（天池）",
+      "location": "内蒙古 兴安盟",
+      "region": "东北",
+      "coords": "47.150N 120.600E",
+      "peak_elevation": 1320,
+      "base_elevation": 1200,
+      "terrain_type": "草甸+栈道，平缓",
+      "difficulty": "入门",
+      "round_trip_km": 6.0,
+      "round_trip_hours": 3.0,
+      "total_climb_m": 300,
+      "spring_summer_base_temp": "3-15℃",
+      "spring_summer_peak_temp": "1-13℃",
+      "autumn_winter_base_temp": "-18--5℃",
+      "autumn_winter_peak_temp": "-20--7℃",
+      "temp_diff": "10-15℃",
+      "precip_probability_pct": 40,
+      "annual_precip_mm": 450,
+      "avg_wind_mps": 8.0,
+      "risks": "低温、风大、冬季封山",
+      "notes": "大兴安岭火山天池群",
+      "latitude": 47.15,
+      "longitude": 120.6,
+      "difficulty_level": 1,
+      "ss_base": {
+        "min": 3.0,
+        "max": -15.0,
+        "raw": "3-15℃"
+      },
+      "ss_peak": {
+        "min": 1.0,
+        "max": -13.0,
+        "raw": "1-13℃"
+      },
+      "aw_base": {
+        "min": -18.0,
+        "max": -5.0,
+        "raw": "-18--5℃"
+      },
+      "aw_peak": {
+        "min": -20.0,
+        "max": -7.0,
+        "raw": "-20--7℃"
+      },
+      "temp_diff_range": {
+        "min": 10.0,
+        "max": -15.0,
+        "raw": "10-15℃"
+      },
+      "risk_list": [
+        "低温",
+        "风大",
+        "冬季封山"
+      ],
+      "province": "内蒙古",
+      "cities": [
+        "兴安盟"
+      ],
+      "id": "M110"
+    }
+  ]
+}

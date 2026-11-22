@@ -1,0 +1,57 @@
+{
+  "filter_rules": [],
+  "score_rules": [
+    {
+      "name": "地形",
+      "matchType": "map",
+      "userField": "地形",
+      "productField": "适用地形",
+      "weight": 4,
+      "dictionary": {
+        "地理分区": ["地理分区"],
+        "经纬度": ["经纬度"],
+        "海拔": ["海拔"],
+        "路线地势类型": ["路线地势类型"],
+        "爬升高度": ["爬升高度"]
+      }
+    },
+    {
+      "name": "季节/气候",
+      "matchType": "contains",
+      "userField": "季节/气候",
+      "productField": "适用季节",
+      "weight": 4
+    },
+    {
+      "name": "版型偏好",
+      "matchType": "contains",
+      "userField": "版型偏好",
+      "productField": "适用版型",
+      "weight": 2
+    },
+     {
+      "name": "功能",
+      "matchType": "map",
+      "userField": "功能",
+      "productField": "适用功能",
+      "weight": 3,
+      "dictionary": {
+        "防风": ["防风"],
+        "防水": ["防水"],
+        "轻量": ["轻量"], 
+        "可收纳": ["可收纳"],
+        "高山防护": ["高山防护"],
+        "环保": ["环保"],
+        "耐磨": ["耐磨"],
+        "保暖": ["保暖"]
+       }
+      },
+      {
+      "name": "定位/场景",
+      "matchType": "contains",
+      "userField": "定位/场景",
+      "weight": 4
+    
+      }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "filter_rules": [],
+  "score_rules": [
+    {
+      "name": "使用场景",
+      "matchType": "map",
+      "userField": "使用场景",
+      "productField": "适用场景",
+      "weight": 5,
+      "dictionary": {
+        "聚会/活动": ["活动"],
+        "日常": ["日常"],
+        "通勤/上班": ["通勤"],
+        "运动": ["运动"]
+      }
+    },
+    {
+      "name": "季节/气候",
+      "matchType": "contains",
+      "userField": "季节/气候",
+      "productField": "上市时间",
+      "weight": 4
+    },
+    {
+      "name": "风格偏好",
+      "matchType": "contains",
+      "userField": "风格偏好",
+      "productField": "风格",
+      "weight": 3
+    },
+    {
+      "name": "色彩偏好",
+      "matchType": "map",
+      "userField": "色彩偏好",
+      "productField": "饱和度",
+      "weight": 2,
+      "dictionary": {
+        "鲜艳高饱和": ["高饱和"],
+        "低调低饱和": ["低饱和"],
+        "中性": ["中性"]
+      }
+    }
+  ]
+}
